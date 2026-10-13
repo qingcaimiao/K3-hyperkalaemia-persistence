@@ -1,0 +1,16 @@
+{
+ "MIMIC-IV": {
+  "no_event": 19140,
+  "transient": 757,
+  "intermittent": 189,
+  "sustained": 86,
+  "unclassified": 150
+ },
+ "eICU-CRD": {
+  "no_event": 27808,
+  "transient": 493,
+  "intermittent": 169,
+  "sustained": 100,
+  "unclassified": 235
+ }
+}

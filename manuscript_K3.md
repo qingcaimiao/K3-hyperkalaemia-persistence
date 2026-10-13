@@ -16,13 +16,13 @@ E-mail addresses: 15511075821@163.com (Q.M.); 1046649694@qq.com (J.C.); 18703137
 
 ## Abstract
 
-**Background** Hyperkalaemia in cardiac intensive care is identified by a single threshold, although guidelines recommend confirming it with a repeat sample. How often such an episode persists, and whether persistence carries prognostic information, are unknown.
+**Background** Hyperkalaemia in cardiac intensive care is defined by one threshold, although guidelines advise a repeat sample. Whether such an episode persists, and whether persistence is prognostic, is unknown.
 
-**Methods** Among cardiac intensive care admissions with potassium records (MIMIC-IV 23,429; eICU-CRD 41,917), the 20,322 and 28,805 with a baseline potassium below 5.5 mmol/L and a measurement after 24 hours were classified by the following 24 hours after a first value ≥5.5 mmol/L as transient, intermittent, sustained or unclassified. We quantified within-patient variability, bounded analytical error, and related each state to in-hospital death after a 72-hour landmark, with sensitivity analyses for the classification window, discharge, dialysis and treatment.
+**Methods** Among cardiac intensive care admissions with potassium records in the Medical Information Mart for Intensive Care IV (MIMIC-IV) and the eICU Collaborative Research Database (eICU-CRD), the 20,322 and 28,805 with a baseline potassium below 5.5 mmol/L and a measurement after 24 hours were classified by the next 24 hours after a first value ≥5.5 mmol/L as transient, intermittent, sustained or unclassified, and related to in-hospital death after a 72-hour landmark.
 
-**Results** Episodes occurred in 1,182 (5.82%) and 997 (3.46%) admissions; 86 (0.42%) and 100 (0.35%) were sustained. Analytical error alone predicted 38–83% confirmation, so the observed rates are most consistent with genuine fluctuation rather than assay error, and recorded treatment did not explain them either. Adjusted odds ratios for death were 11.87 (5.59–20.49) and 8.05 (4.16–15.15) for sustained and 1.56 (0.99–2.45) and 2.77 (1.82–3.93) for transient episodes; the persistent state remained significant in every sensitivity analysis (E-value 15.5 and 10.6), whereas the excess for transient episodes was not significant in MIMIC-IV. Only 52.0% and 42.0% of episodes were re-measured within six hours.
+**Results** Episodes occurred in 1,182 (5.82%) and 997 (3.46%) admissions; 86 (0.42%) and 100 (0.35%) were sustained. Analytical error alone predicted 38–83% confirmation, so the observed reversion reflects genuine fluctuation, not assay error, and recorded treatment did not explain it. Adjusted odds ratios for death for sustained episodes were 11.87 (5.59–20.49) and 8.05 (4.16–15.15), significant in all sensitivity analyses; only 52.0% and 42.0% were re-measured within six hours.
 
-**Conclusions** Most single-threshold episodes of incident hyperkalaemia in cardiac intensive care do not persist, and the observed rates are incompatible with an isolated assay error. Excess mortality is carried mainly by the persistent state, so occurrence and persistence should be reported separately.
+**Conclusions** Most single-threshold episodes in cardiac intensive care do not persist, and the observed rates exclude an isolated assay error. Excess mortality is carried mainly by the persistent state, so the two should be reported separately.
 
 **Keywords** hyperkalaemia; potassium; cardiac intensive care; outcome definition; measurement variability; MIMIC-IV; eICU
 
@@ -42,7 +42,7 @@ We therefore set out to quantify, in two independent databases, (i) how often a 
 
 ---
 
-## 2. Methods
+## 2. Materials and Methods
 
 ### 2.1 Data sources and setting
 
@@ -123,7 +123,7 @@ Potassium was recorded in 23,429 cardiac intensive care admissions in MIMIC-IV a
 
 Baseline potassium (highest value in the 24-hour window) was 4.4 mmol/L in MIMIC-IV and 4.3 mmol/L in eICU-CRD among admissions without an episode, and 4.6–4.8 mmol/L in both databases among those with one (medians by state: transient 4.7 and 4.6, intermittent 4.8 and 4.6, sustained 4.8 and 4.8, unclassified 4.7 and 4.7). The median number of potassium measurements per admission was 8 (IQR 6–11) without an episode and 9–16 with one in MIMIC-IV (12, 16, 12 and 9 in the transient, intermittent, sustained and unclassified groups respectively), and 6 (IQR 4–9) versus 7–15 in eICU-CRD (11, 15, 9.5 and 7); ascertainment and outcome are therefore not independent.
 
-A first potassium ≥5.5 mmol/L after hour 24 occurred in 1,182 of 20,322 admissions in MIMIC-IV (5.82%, 95% CI 5.50–6.14) and 997 of 28,805 in eICU-CRD (3.46%, 3.25–3.68) (Table 2). Of these apparent episodes, **only 224 (19.0%) and 234 (23.5%) were still elevated at the next measurement** (next-value-confirmed), and only 86 (0.42% of the cohort) and 100 (0.35%) were sustained, that is, never fell below the threshold across the following 24 hours. Expressed against the apparent episodes, sustained episodes were 7.3% and 10.0%. Reversion was therefore the rule rather than the exception: among episodes that were followed up (1,032 and 762 with a repeat measurement within 24 hours), the median repeat value was 4.85 mmol/L in MIMIC-IV and 5.10 mmol/L in eICU-CRD, and **73.4% and 64.7% had no further value at or above the threshold at any point in the 24 hours**. The stricter definition does not change the conclusion: classifying by the next measurement alone would call 78.3% and 69.3% of re-measured episodes transient, but 51 (6.3%) and 35 (6.6%) of those rose again within the window, which is why they are reported separately as intermittent.
+A first potassium ≥5.5 mmol/L after hour 24 occurred in 1,182 of 20,322 admissions in MIMIC-IV (5.82%, 95% CI 5.50–6.14) and 997 of 28,805 in eICU-CRD (3.46%, 3.25–3.68) (Table 2, Figure 1B). Of these apparent episodes, **only 224 (19.0%) and 234 (23.5%) were still elevated at the next measurement** (next-value-confirmed), and only 86 (0.42% of the cohort) and 100 (0.35%) were sustained, that is, never fell below the threshold across the following 24 hours. Expressed against the apparent episodes, sustained episodes were 7.3% and 10.0%. Reversion was therefore the rule rather than the exception: among episodes that were followed up (1,032 and 762 with a repeat measurement within 24 hours), the median repeat value was 4.85 mmol/L in MIMIC-IV and 5.10 mmol/L in eICU-CRD, and **73.4% and 64.7% had no further value at or above the threshold at any point in the 24 hours**. The stricter definition does not change the conclusion: classifying by the next measurement alone would call 78.3% and 69.3% of re-measured episodes transient, but 51 (6.3%) and 35 (6.6%) of those rose again within the window, which is why they are reported separately as intermittent.
 
 ### Table 2. Definition of outcome states and their incidence
 
@@ -175,7 +175,7 @@ Two consequences followed. First, the apparent rise is often small relative to t
 
 ![](figures_k3/FigK3_4_transition.png "6.5")
 
-**Figure 4.** State-transition matrix. Row percentages for the band of the next measurement, according to the band of the current measurement, in the whole cardiac intensive care population of each database. Cell values are rounded to the nearest integer; the collapsed probability that the next value is at least 5.5 mmol/L is given exactly in Table 3.
+**Figure 4.** State-transition matrix. Row percentages for the band of the next measurement, according to the band of the current measurement, in the whole cardiac intensive care population of each database. Cell values are rounded to the nearest integer. The right-hand column gives, for each current band, the exact row percentage whose next value is at least 5.5 mmol/L, the collapsed probability quoted in Table 3; because the cells are rounded individually, their sum may differ from it by up to one percentage point.
 
 ### 3.3 The reversion is not laboratory error
 
