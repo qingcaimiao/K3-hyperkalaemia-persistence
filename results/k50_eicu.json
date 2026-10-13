@@ -1,0 +1,134 @@
+{
+ "A_sustained_split": {
+  "sustained_all": {
+   "n": 100,
+   "died_pct": 53.0,
+   "age_med": 66.0,
+   "k_idx_med": 5.8
+  },
+  "sustained_1recheck": {
+   "n": 69,
+   "died_pct": 44.9,
+   "age_med": 65.5,
+   "k_idx_med": 5.8
+  },
+  "sustained_ge2recheck": {
+   "n": 31,
+   "died_pct": 71.0,
+   "age_med": 66.0,
+   "k_idx_med": 5.8
+  }
+ },
+ "B_ge2": {
+  "transient": {
+   "or_": 2.97,
+   "lo": 1.4,
+   "hi": 4.44
+  },
+  "intermittent": {
+   "or_": 3.44,
+   "lo": 1.28,
+   "hi": 5.55
+  },
+  "sustained": {
+   "or_": 20.17,
+   "lo": 6.96,
+   "hi": 41.68
+  }
+ },
+ "B_limited": {
+  "n": 129,
+  "died_pct": 12.4
+ },
+ "C_fixed_window": {
+  "events": 485,
+  "late": 172,
+  "late_pct": 35.5
+ },
+ "E_density_ge_median": {
+  "transient": {
+   "or_": 2.56,
+   "lo": 1.53,
+   "hi": 3.83
+  },
+  "intermittent": {
+   "or_": 3.9,
+   "lo": 2.09,
+   "hi": 6.49
+  },
+  "sustained": {
+   "or_": 9.9,
+   "lo": 3.53,
+   "hi": 18.69
+  }
+ },
+ "E_density_top_quartile": {
+  "transient": {
+   "or_": 2.73,
+   "lo": 1.49,
+   "hi": 4.03
+  },
+  "intermittent": {
+   "or_": 3.58,
+   "lo": 1.84,
+   "hi": 6.26
+  },
+  "sustained": {
+   "or_": 10.92,
+   "lo": 2.58,
+   "hi": 22.35
+  }
+ },
+ "F_evalue": {
+  "base_risk": 0.0638,
+  "rows": {
+   "transient": {
+    "or_": 2.77,
+    "rr": 2.49,
+    "evalue": 4.4
+   },
+   "intermittent": {
+    "or_": 4.52,
+    "rr": 3.69,
+    "evalue": 6.8
+   },
+   "sustained": {
+    "or_": 8.05,
+    "rr": 5.55,
+    "evalue": 10.6
+   }
+  }
+ },
+ "H_tau2": {
+  "kpop": 4.1,
+  "tau2": 0.1639,
+  "observed": 3070.0,
+  "table": [
+   {
+    "mult": 0.25,
+    "cv3": 30.4,
+    "cv5": 7.4
+   },
+   {
+    "mult": 0.5,
+    "cv3": 52.7,
+    "cv5": 24.9
+   },
+   {
+    "mult": 1.0,
+    "cv3": 67.7,
+    "cv5": 46.5
+   },
+   {
+    "mult": 2.0,
+    "cv3": 75.5,
+    "cv5": 61.6
+   },
+   {
+    "mult": 4.0,
+    "cv3": 79.2,
+    "cv5": 69.7
+   }
+  ]
+ }
+}

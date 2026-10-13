@@ -1,0 +1,112 @@
+{
+ "MIMIC-IV": {
+  "n_all": 23429,
+  "n_coh": 20322,
+  "nk_med": 8.0,
+  "nk_max": 40,
+  "rows": [
+   {
+    "grp": "no_event",
+    "n": 19140,
+    "age": 70.0,
+    "male": 63.8,
+    "kbase": 4.4,
+    "nk": 8.0
+   },
+   {
+    "grp": "transient",
+    "n": 808,
+    "age": 71.0,
+    "male": 62.9,
+    "kbase": 4.7,
+    "nk": 13.0
+   },
+   {
+    "grp": "confirmed",
+    "n": 138,
+    "age": 70.0,
+    "male": 65.9,
+    "kbase": 4.8,
+    "nk": 15.0
+   },
+   {
+    "grp": "sustained",
+    "n": 86,
+    "age": 67.0,
+    "male": 70.9,
+    "kbase": 4.8,
+    "nk": 12.0
+   },
+   {
+    "grp": "unknown",
+    "n": 150,
+    "age": 70.5,
+    "male": 63.3,
+    "kbase": 4.7,
+    "nk": 9.0
+   }
+  ],
+  "all": {
+   "n": 20322,
+   "age": 70.0,
+   "male": 63.8,
+   "kbase": 4.5,
+   "nk": 8.0
+  }
+ },
+ "eICU-CRD": {
+  "n_all": 41917,
+  "n_coh": 28805,
+  "nk_med": 5.0,
+  "nk_max": 180,
+  "rows": [
+   {
+    "grp": "no_event",
+    "n": 27808,
+    "age": 66.0,
+    "male": 58.0,
+    "kbase": 4.3,
+    "nk": 6.0
+   },
+   {
+    "grp": "transient",
+    "n": 528,
+    "age": 66.0,
+    "male": 61.7,
+    "kbase": 4.6,
+    "nk": 11.0
+   },
+   {
+    "grp": "confirmed",
+    "n": 134,
+    "age": 63.0,
+    "male": 64.9,
+    "kbase": 4.6,
+    "nk": 15.0
+   },
+   {
+    "grp": "sustained",
+    "n": 100,
+    "age": 66.0,
+    "male": 69.0,
+    "kbase": 4.8,
+    "nk": 9.5
+   },
+   {
+    "grp": "unknown",
+    "n": 235,
+    "age": 69.0,
+    "male": 51.9,
+    "kbase": 4.7,
+    "nk": 7.0
+   }
+  ],
+  "all": {
+   "n": 28805,
+   "age": 66.0,
+   "male": 58.1,
+   "kbase": 4.3,
+   "nk": 6.0
+  }
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "MIMIC-IV": {
+  "72 h": {
+   "n_landmark": 18227,
+   "rows": [
+    {
+     "grp": "no_event",
+     "n": 17585,
+     "died": 4.4
+    },
+    {
+     "grp": "transient",
+     "n": 435,
+     "died": 8.5
+    },
+    {
+     "grp": "confirmed",
+     "n": 79,
+     "died": 17.7
+    },
+    {
+     "grp": "sustained",
+     "n": 39,
+     "died": 41.0
+    },
+    {
+     "grp": "unknown",
+     "n": 89,
+     "died": 14.6
+    }
+   ],
+   "or_": {
+    "g_transient": {
+     "or_": 1.74,
+     "ci": [
+      1.13,
+      2.75
+     ]
+    },
+    "g_confirmed": {
+     "or_": 4.1,
+     "ci": [
+      2.11,
+      6.71
+     ]
+    },
+    "g_sustained": {
+     "or_": 11.93,
+     "ci": [
+      5.6,
+      20.36
+     ]
+    }
+   }
+  },
+  "7 d": {
+   "n_landmark": 7427,
+   "rows": [
+    {
+     "grp": "no_event",
+     "n": 6672,
+     "died": 6.2
+    },
+    {
+     "grp": "transient",
+     "n": 544,
+     "died": 11.6
+    },
+    {
+     "grp": "confirmed",
+     "n": 96,
+     "died": 16.7
+    },
+    {
+     "grp": "sustained",
+     "n": 40,
+     "died": 20.0
+    },
+    {
+     "grp": "unknown",
+     "n": 75,
+     "died": 14.7
+    }
+   ],
+   "or_": {
+    "g_transient": {
+     "or_": 2.01,
+     "ci": [
+      1.41,
+      2.8
+     ]
+    },
+    "g_confirmed": {
+     "or_": 2.9,
+     "ci": [
+      1.55,
+      4.46
+     ]
+    },
+    "g_sustained": {
+     "or_": 3.46,
+     "ci": [
+      1.42,
+      6.61
+     ]
+    }
+   },
+   "unknown_bounds": {
+    "as_transient": [
+     22.3
+    ],
+    "as_sustained": [
+     72.2
+    ]
+   }
+  }
+ },
+ "eICU-CRD": {
+  "72 h": {
+   "n_landmark": 23087,
+   "rows": [
+    {
+     "grp": "no_event",
+     "n": 22602,
+     "died": 6.4
+    },
+    {
+     "grp": "transient",
+     "n": 259,
+     "died": 13.5
+    },
+    {
+     "grp": "confirmed",
+     "n": 75,
+     "died": 14.7
+    },
+    {
+     "grp": "sustained",
+     "n": 43,
+     "died": 34.9
+    },
+    {
+     "grp": "unknown",
+     "n": 108,
+     "died": 15.7
+    }
+   ],
+   "or_": {
+    "g_transient": {
+     "or_": 2.92,
+     "ci": [
+      1.98,
+      4.04
+     ]
+    },
+    "g_confirmed": {
+     "or_": 3.6,
+     "ci": [
+      1.5,
+      6.24
+     ]
+    },
+    "g_sustained": {
+     "or_": 9.11,
+     "ci": [
+      4.16,
+      15.7
+     ]
+    }
+   }
+  },
+  "7 d": {
+   "n_landmark": 10571,
+   "rows": [
+    {
+     "grp": "no_event",
+     "n": 9979,
+     "died": 7.6
+    },
+    {
+     "grp": "transient",
+     "n": 352,
+     "died": 14.8
+    },
+    {
+     "grp": "confirmed",
+     "n": 94,
+     "died": 16.0
+    },
+    {
+     "grp": "sustained",
+     "n": 40,
+     "died": 27.5
+    },
+    {
+     "grp": "unknown",
+     "n": 106,
+     "died": 14.2
+    }
+   ],
+   "or_": {
+    "g_transient": {
+     "or_": 2.7,
+     "ci": [
+      1.62,
+      3.42
+     ]
+    },
+    "g_confirmed": {
+     "or_": 3.28,
+     "ci": [
+      1.29,
+      5.26
+     ]
+    },
+    "g_sustained": {
+     "or_": 5.63,
+     "ci": [
+      2.27,
+      9.09
+     ]
+    }
+   },
+   "unknown_bounds": {
+    "as_transient": [
+     34.5
+    ],
+    "as_sustained": [
+     80.1
+    ]
+   }
+  }
+ }
+}

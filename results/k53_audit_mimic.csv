@@ -1,0 +1,10 @@
+db,metric,n,k,pct,or_,lo,hi
+MIMIC-IV,beyond_pct_whole_cohort,1182.0,756.0,64.0,,,
+MIMIC-IV,beyond_pct_landmark_cohort,642.0,408.0,63.6,,,
+MIMIC-IV,OR_rcv_restricted_transient,,,,1.39,0.8,2.63
+MIMIC-IV,OR_rcv_restricted_intermittent,,,,4.43,2.16,9.21
+MIMIC-IV,OR_rcv_restricted_sustained,,,,4.94,1.57,16.04
+MIMIC-IV,median_repeat_all_remeasured,1032.0,,,4.85,,
+MIMIC-IV,median_repeat_reverted_only,808.0,,,4.6,,
+MIMIC-IV,landmark72_retention_pct,18227.0,20322.0,89.7,,,
+MIMIC-IV,landmark7d_retention_pct,,,,,,

@@ -1,0 +1,23 @@
+﻿part,db,grp,n,died
+whole,MIMIC-IV,no_event,19140,4.4
+whole,MIMIC-IV,transient,757,11.8
+whole,MIMIC-IV,intermittent,189,22.8
+whole,MIMIC-IV,sustained,86,51.2
+whole,MIMIC-IV,unclassified,150,32.0
+band55_59|72 h,MIMIC-IV,transient,273,7.3
+band55_59|72 h,MIMIC-IV,intermittent,66,16.7
+band55_59|72 h,MIMIC-IV,sustained,28,39.3
+band55_59|7 d,MIMIC-IV,transient,325,11.7
+band55_59|7 d,MIMIC-IV,intermittent,88,17.0
+band55_59|7 d,MIMIC-IV,sustained,28,25.0
+whole,eICU-CRD,no_event,27808,5.8
+whole,eICU-CRD,transient,493,17.4
+whole,eICU-CRD,intermittent,169,23.1
+whole,eICU-CRD,sustained,100,53.0
+whole,eICU-CRD,unclassified,235,32.8
+band55_59|72 h,eICU-CRD,transient,184,13.0
+band55_59|72 h,eICU-CRD,intermittent,48,18.8
+band55_59|72 h,eICU-CRD,sustained,25,44.0
+band55_59|7 d,eICU-CRD,transient,245,14.7
+band55_59|7 d,eICU-CRD,intermittent,66,19.7
+band55_59|7 d,eICU-CRD,sustained,25,32.0

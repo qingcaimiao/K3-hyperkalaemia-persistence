@@ -1,0 +1,264 @@
+{
+ "MIMIC-IV": {
+  "n_apparent": 1182,
+  "n_rep": 1032,
+  "n_norep": 150,
+  "rules": [
+   {
+    "W": 120,
+    "label": "2 h",
+    "coverage": 15.4,
+    "captured": 29,
+    "captured_pct": 2.5,
+    "nnr": 6.3,
+    "uncov": 84.6,
+    "uncov_n": 1000
+   },
+   {
+    "W": 240,
+    "label": "4 h",
+    "coverage": 35.9,
+    "captured": 85,
+    "captured_pct": 7.2,
+    "nnr": 5.0,
+    "uncov": 64.1,
+    "uncov_n": 758
+   },
+   {
+    "W": 360,
+    "label": "6 h",
+    "coverage": 52.0,
+    "captured": 137,
+    "captured_pct": 11.6,
+    "nnr": 4.5,
+    "uncov": 48.0,
+    "uncov_n": 567
+   },
+   {
+    "W": 720,
+    "label": "12 h",
+    "coverage": 76.7,
+    "captured": 211,
+    "captured_pct": 17.9,
+    "nnr": 4.3,
+    "uncov": 23.3,
+    "uncov_n": 275
+   },
+   {
+    "W": 1440,
+    "label": "24 h",
+    "coverage": 87.3,
+    "captured": 224,
+    "captured_pct": 19.0,
+    "nnr": 4.6,
+    "uncov": 12.7,
+    "uncov_n": 150
+   }
+  ],
+  "strat": [
+   {
+    "band": "5.5–5.9",
+    "n": 333,
+    "cap": 77,
+    "nnr": 4.3,
+    "save": 45.9
+   },
+   {
+    "band": "6.0–6.4",
+    "n": 116,
+    "cap": 37,
+    "nnr": 3.1,
+    "save": 81.1
+   },
+   {
+    "band": "≥6.5",
+    "n": 166,
+    "cap": 23,
+    "nnr": 7.2,
+    "save": 73.0
+   }
+  ],
+  "ttc": [
+   {
+    "W": 120,
+    "label": "2 h",
+    "pct": 12.9
+   },
+   {
+    "W": 240,
+    "label": "4 h",
+    "pct": 37.9
+   },
+   {
+    "W": 360,
+    "label": "6 h",
+    "pct": 61.2
+   },
+   {
+    "W": 720,
+    "label": "12 h",
+    "pct": 94.2
+   },
+   {
+    "W": 1440,
+    "label": "24 h",
+    "pct": 100.0
+   }
+  ],
+  "gaps": [
+   {
+    "gap": "≤3 h",
+    "n": 303,
+    "confirm": 18.5
+   },
+   {
+    "gap": "3–6 h",
+    "n": 312,
+    "confirm": 26.0
+   },
+   {
+    "gap": "6–12 h",
+    "n": 292,
+    "confirm": 25.3
+   },
+   {
+    "gap": "12–24 h",
+    "n": 125,
+    "confirm": 10.4
+   }
+  ],
+  "conf_med_gap_h": 4.7,
+  "unconf_med_gap_h": 4.7
+ },
+ "eICU-CRD": {
+  "n_apparent": 997,
+  "n_rep": 762,
+  "n_norep": 235,
+  "rules": [
+   {
+    "W": 120,
+    "label": "2 h",
+    "coverage": 20.0,
+    "captured": 85,
+    "captured_pct": 8.5,
+    "nnr": 2.3,
+    "uncov": 80.0,
+    "uncov_n": 798
+   },
+   {
+    "W": 240,
+    "label": "4 h",
+    "coverage": 32.0,
+    "captured": 124,
+    "captured_pct": 12.4,
+    "nnr": 2.6,
+    "uncov": 68.0,
+    "uncov_n": 678
+   },
+   {
+    "W": 360,
+    "label": "6 h",
+    "coverage": 42.0,
+    "captured": 151,
+    "captured_pct": 15.1,
+    "nnr": 2.8,
+    "uncov": 58.0,
+    "uncov_n": 578
+   },
+   {
+    "W": 720,
+    "label": "12 h",
+    "coverage": 60.2,
+    "captured": 202,
+    "captured_pct": 20.3,
+    "nnr": 3.0,
+    "uncov": 39.8,
+    "uncov_n": 397
+   },
+   {
+    "W": 1440,
+    "label": "24 h",
+    "coverage": 76.4,
+    "captured": 234,
+    "captured_pct": 23.5,
+    "nnr": 3.3,
+    "uncov": 23.6,
+    "uncov_n": 235
+   }
+  ],
+  "strat": [
+   {
+    "band": "5.5–5.9",
+    "n": 242,
+    "cap": 79,
+    "nnr": 3.1,
+    "save": 42.2
+   },
+   {
+    "band": "6.0–6.4",
+    "n": 108,
+    "cap": 39,
+    "nnr": 2.8,
+    "save": 74.2
+   },
+   {
+    "band": "≥6.5",
+    "n": 69,
+    "cap": 33,
+    "nnr": 2.1,
+    "save": 83.5
+   }
+  ],
+  "ttc": [
+   {
+    "W": 120,
+    "label": "2 h",
+    "pct": 36.3
+   },
+   {
+    "W": 240,
+    "label": "4 h",
+    "pct": 53.0
+   },
+   {
+    "W": 360,
+    "label": "6 h",
+    "pct": 64.5
+   },
+   {
+    "W": 720,
+    "label": "12 h",
+    "pct": 86.3
+   },
+   {
+    "W": 1440,
+    "label": "24 h",
+    "pct": 100.0
+   }
+  ],
+  "gaps": [
+   {
+    "gap": "≤3 h",
+    "n": 262,
+    "confirm": 39.7
+   },
+   {
+    "gap": "3–6 h",
+    "n": 157,
+    "confirm": 29.9
+   },
+   {
+    "gap": "6–12 h",
+    "n": 181,
+    "confirm": 28.2
+   },
+   {
+    "gap": "12–24 h",
+    "n": 162,
+    "confirm": 19.8
+   }
+  ],
+  "conf_med_gap_h": 3.8,
+  "unconf_med_gap_h": 5.9
+ }
+}

@@ -1,0 +1,52 @@
+﻿item,db,value,note
+apparent n / 队列 n,MIMIC-IV,1182 / 20322,
+apparent %,MIMIC-IV,5.82,
+apparent% 95%CI(bootstrap 4000),MIMIC-IV,5.50–6.14,
+apparent% 95%CI(Wald),MIMIC-IV,5.49–6.14,
+CV 分母=全部测量均值,MIMIC-IV,9.71,
+CV 分母=配对样本均值(k30口径),MIMIC-IV,9.71,
+OR transient (landmark 72h),MIMIC-IV,1.74 (1.13–2.75),
+OR confirmed (landmark 72h),MIMIC-IV,4.10 (2.11–6.71),
+OR sustained (landmark 72h),MIMIC-IV,11.93 (5.60–20.36),
+上界:unknown全计为死亡并归transient (72h),MIMIC-IV,24.0,n_transient=435 died=37 n_u=89
+下界:unknown按该组死亡率归transient (72h),MIMIC-IV,8.5,（不改变原估计）
+上界:unknown全计为死亡并归sustained (72h),MIMIC-IV,82.0,n_sustained=39 died=16 n_u=89
+下界:unknown按该组死亡率归sustained (72h),MIMIC-IV,41.0,（不改变原估计）
+参照 no_event 死亡率 72h,MIMIC-IV,4.4,
+OR transient (landmark 7d),MIMIC-IV,2.01 (1.41–2.80),
+OR confirmed (landmark 7d),MIMIC-IV,2.90 (1.55–4.46),
+OR sustained (landmark 7d),MIMIC-IV,3.46 (1.42–6.61),
+上界:unknown全计为死亡并归transient (7d),MIMIC-IV,22.3,n_transient=544 died=63 n_u=75
+下界:unknown按该组死亡率归transient (7d),MIMIC-IV,11.6,（不改变原估计）
+上界:unknown全计为死亡并归sustained (7d),MIMIC-IV,72.2,n_sustained=40 died=8 n_u=75
+下界:unknown按该组死亡率归sustained (7d),MIMIC-IV,20.0,（不改变原估计）
+参照 no_event 死亡率 7d,MIMIC-IV,6.2,
+敏感性:ICU停留>24h 队列n,eICU-CRD,23205,
+敏感性:ICU停留>24h apparent,eICU-CRD,913,
+敏感性:ICU停留>24h apparent%,eICU-CRD,3.93,
+敏感性:ICU停留>24h confirmed,eICU-CRD,222,
+敏感性:ICU停留>24h confirmed/apparent%,eICU-CRD,24.3,
+敏感性:ICU停留>24h sustained,eICU-CRD,93,
+敏感性:ICU停留>24h sustained/apparent%,eICU-CRD,10.2,
+apparent n / 队列 n,eICU-CRD,997 / 28805,
+apparent %,eICU-CRD,3.46,
+apparent% 95%CI(bootstrap 4000),eICU-CRD,3.25–3.68,
+apparent% 95%CI(Wald),eICU-CRD,3.25–3.67,
+CV 分母=全部测量均值,eICU-CRD,9.4,
+CV 分母=配对样本均值(k30口径),eICU-CRD,9.38,
+OR transient (landmark 72h),eICU-CRD,2.92 (1.98–4.04),
+OR confirmed (landmark 72h),eICU-CRD,3.60 (1.50–6.24),
+OR sustained (landmark 72h),eICU-CRD,9.11 (4.16–15.70),
+上界:unknown全计为死亡并归transient (72h),eICU-CRD,39.0,n_transient=259 died=35 n_u=108
+下界:unknown按该组死亡率归transient (72h),eICU-CRD,13.5,（不改变原估计）
+上界:unknown全计为死亡并归sustained (72h),eICU-CRD,81.5,n_sustained=43 died=15 n_u=108
+下界:unknown按该组死亡率归sustained (72h),eICU-CRD,34.9,（不改变原估计）
+参照 no_event 死亡率 72h,eICU-CRD,6.4,
+OR transient (landmark 7d),eICU-CRD,2.70 (1.62–3.42),
+OR confirmed (landmark 7d),eICU-CRD,3.28 (1.29–5.26),
+OR sustained (landmark 7d),eICU-CRD,5.63 (2.27–9.09),
+上界:unknown全计为死亡并归transient (7d),eICU-CRD,34.5,n_transient=352 died=52 n_u=106
+下界:unknown按该组死亡率归transient (7d),eICU-CRD,14.8,（不改变原估计）
+上界:unknown全计为死亡并归sustained (7d),eICU-CRD,80.1,n_sustained=40 died=11 n_u=106
+下界:unknown按该组死亡率归sustained (7d),eICU-CRD,27.5,（不改变原估计）
+参照 no_event 死亡率 7d,eICU-CRD,7.6,

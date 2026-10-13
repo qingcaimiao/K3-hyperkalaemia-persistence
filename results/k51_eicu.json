@@ -1,0 +1,61 @@
+{
+ "D_cif": {
+  "no_event": {
+   "n": 22602,
+   "died": 1441,
+   "cif7": 4.02,
+   "cif14": 5.3,
+   "cif30": 6.09,
+   "crude30": 6.38
+  },
+  "transient": {
+   "n": 245,
+   "died": 32,
+   "cif7": 8.98,
+   "cif14": 11.02,
+   "cif30": 12.65,
+   "crude30": 13.06
+  },
+  "intermittent": {
+   "n": 89,
+   "died": 14,
+   "cif7": 10.11,
+   "cif14": 12.36,
+   "cif30": 15.73,
+   "crude30": 15.73
+  },
+  "sustained": {
+   "n": 43,
+   "died": 15,
+   "cif7": 20.93,
+   "cif14": 25.58,
+   "cif30": 32.56,
+   "crude30": 34.88
+  },
+  "unclassified": {
+   "n": 108,
+   "died": 17,
+   "cif7": 9.26,
+   "cif14": 14.81,
+   "cif30": 15.74,
+   "crude30": 15.74
+  }
+ },
+ "G2_cluster_or": {
+  "n_resample": 1000,
+  "rows": {
+   "transient": {
+    "lo": 1.94,
+    "hi": 3.88
+   },
+   "intermittent": {
+    "lo": 2.1,
+    "hi": 6.27
+   },
+   "sustained": {
+    "lo": 3.81,
+    "hi": 17.82
+   }
+  }
+ }
+}

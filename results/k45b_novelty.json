@@ -1,0 +1,173 @@
+[
+ {
+  "set": "T1 标题: 高钾 + 心脏ICU",
+  "query": "(TITLE:\"hyperkalemia\" OR TITLE:\"hyperkalaemia\") AND (TITLE:\"cardiac intensive care\" OR TITLE:\"coronary care unit\" OR TITLE:\"cardiac ICU\" OR TITLE:\"cardiac critical care\")",
+  "hits": 2,
+  "note": "ok",
+  "sample": [
+   "Mortality Risk Stratification Utilizing Artificial Intelligence Electrocardiogram for Hyperkalemia i | JACC Adv | 2024",
+   "Hyperkalemia Is Associated With Increased Mortality Among Unselected Cardiac Intensive Care Unit Pat | J Am Heart Assoc | 2019"
+  ]
+ },
+ {
+  "set": "T2 摘要: 高钾 + 心脏ICU",
+  "query": "(ABSTRACT:\"hyperkalemia\" OR ABSTRACT:\"hyperkalaemia\") AND (ABSTRACT:\"cardiac intensive care\" OR ABSTRACT:\"coronary care unit\" OR ABSTRACT:\"cardiac ICU\")",
+  "hits": 15,
+  "note": "ok",
+  "sample": [
+   "Evaluation of a Tiered Potassium Replacement Protocol in Post-Operative Patients Admitted to a Pedia | J Pediatr Pharmacol Ther | 2025",
+   "Mortality Risk Stratification Utilizing Artificial Intelligence Electrocardiogram for Hyperkalemia i | JACC Adv | 2024",
+   "Epidemiology, Risk Factors, and Outcome of Cardiac Dysrhythmias in a Noncardiac Intensive Care Unit. | SAGE Open Nurs | 2023",
+   "Incidence and predictors of pacemaker implantation at follow-up after reversible high-degree sinus n | Pacing Clin Electrophysiol | 2023",
+   "Hyperkalemia Is Associated With Increased Mortality Among Unselected Cardiac Intensive Care Unit Pat | J Am Heart Assoc | 2019",
+   "Spironolactone effect on potassium supplementation in paediatric cardiac intensive care patients. | J Clin Pharm Ther | 2017",
+   "Decreasing IV Potassium in Pediatric Cardiac Intensive Care: Quality Improvement Project. | Pediatr Crit Care Med | 2016",
+   "Comparison of Enteral versus Intravenous Potassium Supplementation in hypokalaemia in postcardiac su | BMJ Open | 2014"
+  ]
+ },
+ {
+  "set": "T3 标题: 高钾 + 一过性/持续性",
+  "query": "(TITLE:\"hyperkalemia\" OR TITLE:\"hyperkalaemia\") AND (TITLE:\"transient\" OR TITLE:\"persistent\" OR TITLE:\"sustained\")",
+  "hits": 52,
+  "note": "ok",
+  "sample": [
+   "The Case | Persistent hyperkalemia in a normotensive woman. | Kidney Int | 2026",
+   "Rare coexistence of aldosterone resistance and adrenal insufficiency in asymptomatic infant with per | World J Clin Pediatr | 2026",
+   "Heparin-Associated, Sustained Hospital-Acquired Hyperkalemia: The Forgotten Culprit in the Inpatient |  | 2026",
+   "Revelation of Gordon Syndrome: A Case of Persistent Hyperkalemia. | Cureus | 2025",
+   "SUN-470 Unilateral Disease Bilateral Consequences A Case of Persistent Hyperkalemia After Unilateral | J Endocr Soc | 2025",
+   "A rare case of persistent hyperkalaemia. | Ann Clin Biochem | 2021",
+   "Dynamic Changes of EKG by Severe Hyperkalemia: Transient Left Bundle Branch Block. | Cureus | 2023",
+   "Sustained hyperkalemia in an asymptomatic primary care patient. When to suspect familial pseudohyper | Adv Lab Med | 2022"
+  ]
+ },
+ {
+  "set": "T4 摘要: 高钾 + 一过性/持续性",
+  "query": "(ABSTRACT:\"hyperkalemia\" OR ABSTRACT:\"hyperkalaemia\") AND (ABSTRACT:\"transient\" OR ABSTRACT:\"persistent\" OR ABSTRACT:\"sustained\")",
+  "hits": 772,
+  "note": "ok",
+  "sample": [
+   "Rare coexistence of aldosterone resistance and adrenal insufficiency in asymptomatic infant with per | World J Clin Pediatr | 2026",
+   "The Lingering Battle of Persistent Hypoaldosteronism Following Adrenalectomy for Primary Aldosteroni | J ASEAN Fed Endocr Soc | 2026",
+   "Efficacy of Patiromer in Treatment of Long Inter-Dialytic Interval Hyperkalemia in Potassium-Rich Di | Int J Nephrol Renovasc Dis | 2026",
+   "Importance of History in the Management of New-Onset Hyperkalemia. | Cureus | 2026",
+   "Eplerenone vs. spironolactone in heart failure: long-term cardiorenal and mortality outcomes in a re | Eur Heart J Cardiovasc Pharmac | 2026",
+   "European Journal of Heart Failure International Expert Position Paper-Utilization, optimization, and | Eur J Heart Fail | 2026",
+   "Study protocol for a prospective, multicenter, single-arm study investigating the impact of the impl | BMC Nephrol | 2026",
+   "Diagnostic Overlap Between Uremia and Severe Hyperkalemia in Chronic Kidney Disease: Emphasizing Lab | Cureus | 2026"
+  ]
+ },
+ {
+  "set": "T5 标题: 高钾 + 确认/复查",
+  "query": "(TITLE:\"hyperkalemia\" OR TITLE:\"hyperkalaemia\") AND (TITLE:\"confirmation\" OR TITLE:\"repeat\" OR TITLE:\"recheck\" OR TITLE:\"remission\" OR TITLE:\"resolution\")",
+  "hits": 5,
+  "note": "ok",
+  "sample": [
+   "Hyperkalemia in a Hemolyzed Sample in Pediatric Patients: Repeat or Do Not Repeat? | Pediatr Emerg Care | 2023",
+   "Rapid resolution of life-threatening hyperkalaemia in diabetic ketoacidosis with intensive insulin t | BMJ Case Rep | 2021",
+   "Electrocardiographic findings in an elderly patient before and after resolution of iatrogenic hyperk | J Geriatr Cardiol | 2020",
+   "Resolution of hypertension during pregnancy in familial hyperkalemia and hypertension with the WNK4  | Am J Obstet Gynecol | 2005",
+   "[Hyperkalemia--repeat potassium determination in heparin plasma]. | Tidsskr Nor Laegeforen | 1992"
+  ]
+ },
+ {
+  "set": "T6 标题: 血钾轨迹 + 死亡",
+  "query": "(TITLE:\"potassium\") AND (TITLE:\"trajectory\" OR TITLE:\"trajectories\" OR TITLE:\"variability\") AND (TITLE:\"mortality\" OR TITLE:\"outcome\")",
+  "hits": 21,
+  "note": "ok",
+  "sample": [
+   "Dynamic potassium variability (K-CV) as an independent predictor of mortality in maintenance hemodia | Ren Fail | 2026",
+   "Dynamic Variability of Sodium and Potassium Predicts Mortality in Critically Ill Patients With Ische | Brain Behav | 2026",
+   "Dynamic variability of serum sodium, potassium, and calcium and mortality after acute myocardial inf | BMC Cardiovasc Disord | 2026",
+   "Impact of postoperative serum potassium levels and variability on 1-year mortality rate in coronary  | J Cardiothorac Surg | 2026",
+   "The impact of serum potassium ion variability on 28-day mortality in ICU patients. | PLoS One | 2024",
+   "Associations between serum potassium variability and mortality in patients undergoing maintenance he | Sci Rep | 2024",
+   "The Impact of Serum Potassium Ion Variability on 28-Day Mortality in ICU Patients |  | 2024",
+   "Serum Potassium Trajectory during Acute Kidney Injury and Mortality Risk. | Nephron | 2023"
+  ]
+ },
+ {
+  "set": "T7 摘要: 血钾轨迹 + 死亡",
+  "query": "(ABSTRACT:\"potassium\" AND (ABSTRACT:\"trajectory\" OR ABSTRACT:\"variability\") AND ABSTRACT:\"mortality\")",
+  "hits": 110,
+  "note": "ok",
+  "sample": [
+   "Dynamic Variability of Sodium and Potassium Predicts Mortality in Critically Ill Patients With Ische | Brain Behav | 2026",
+   "Impact of postoperative serum potassium levels and variability on 1-year mortality rate in coronary  | J Cardiothorac Surg | 2026",
+   "Dynamic potassium variability (K-CV) as an independent predictor of mortality in maintenance hemodia | Ren Fail | 2026",
+   "Dynamic variability of serum sodium, potassium, and calcium and mortality after acute myocardial inf | BMC Cardiovasc Disord | 2026",
+   "Impact of RAASIs on Potassium and Mortality in a Large Cohort of Hemodialysis Patients: Practical Ex | J Clin Med | 2026",
+   "Urgent initiation of hemodialysis versus peritoneal dialysis in severe hyperkalemia: a prospective s | Clin Kidney J | 2025",
+   "Predictive value of 72-hour serum potassium variability, age, and total bilirubin for the prognosis  | Medicine (Baltimore) | 2025",
+   "Multi-Time-Window Landmark Modeling for Dynamic Mortality Prediction in Spontaneous Intracerebral He |  | 2026"
+  ]
+ },
+ {
+  "set": "T8 标题: 阈值定义 + 高钾",
+  "query": "(TITLE:\"threshold\" OR TITLE:\"definition\") AND (TITLE:\"hyperkalemia\" OR TITLE:\"hyperkalaemia\" OR TITLE:\"potassium episode\")",
+  "hits": 2,
+  "note": "ok",
+  "sample": [
+   "Impact of hyperkalaemia definition on incidence assessment: implications for epidemiological researc | BMC Fam Pract | 2016",
+   "Reversal of glucose-induced hyperkalemia by sodium restriction in normaldosteronemic diabetes: evide | Biomedicine | 1981"
+  ]
+ },
+ {
+  "set": "T9 标题: 高钾 + 回落/复常",
+  "query": "(TITLE:\"hyperkalemia\" OR TITLE:\"hyperkalaemia\") AND (TITLE:\"revert\" OR TITLE:\"reversion\" OR TITLE:\"resolved\" OR TITLE:\"resolving\")",
+  "hits": 2,
+  "note": "ok",
+  "sample": [
+   "Hyperkalemia in a Patient With Resolving Acute Kidney Injury. | Am J Kidney Dis | 2025",
+   "Reversion of atrial fibrillation following hyperkalemia. | Chest | 1970"
+  ]
+ },
+ {
+  "set": "T10 标题: 高钾 + 预后(任一) + 持续/间歇",
+  "query": "(TITLE:\"hyperkalemia\" OR TITLE:\"hyperkalaemia\") AND (TITLE:\"intermittent\" OR TITLE:\"episodic\" OR TITLE:\"non-sustained\")",
+  "hits": 9,
+  "note": "ok",
+  "sample": [
+   "Late-Onset Episodic Weakness With Hyperkalemia Suggestive of Hyperkalemic Periodic Paralysis. | Cureus | 2026",
+   "Efficacy of Patiromer in Treatment of Long Inter-Dialytic Interval Hyperkalemia in Potassium-Rich Di | Int J Nephrol Renovasc Dis | 2026",
+   "Intermittent sodium zirconium cyclosilicate for the prevention of hyperkalemia in chronic kidney dis | BMC Nephrol | 2025",
+   "A Case of BRASH Syndrome Presenting With Refractory Hyperkalemia Requiring Intermittent Hemodialysis | Clin Case Rep | 2024",
+   "Randomized Trial of Patiromer on Efficacy to Reduce Episodic Hyperkalemia in Patients with ESKD Trea | Kidney Int Rep | 2024",
+   "Ineffectiveness of Intermittent Hemodialysis in a Critically Ill COVID-19 Patient: A Case of Persist | Case Rep Nephrol | 2022",
+   "Intermittent automatic veno-venous hemofiltration (IVVHF) and potassium removal: possible role in hy | Ren Fail | 2003",
+   "An episodic weakness in four horses associated with intermittent serum hyperkalemia and the similari | Proceedings of the ... annual  | 1985"
+  ]
+ },
+ {
+  "set": "T11 概念级(全字段): 高钾状态持续性 + 预后",
+  "query": "\"hyperkalemia\" AND (\"transient\" OR \"persistent\") AND (\"cardiac intensive care\" OR \"coronary care unit\" OR \"cardiac ICU\") AND \"mortality\"",
+  "hits": 200,
+  "note": "ok",
+  "sample": [
+   "New Insights into Cardiac Intensive Care. | Rev Cardiovasc Med | 2026",
+   "Concomitant Enalapril and Spironolactone-Induced Hyperkalemia in a Pediatric Patient. | J Pediatr Pharmacol Ther | 2026",
+   "Kidney Failure in Cardiogenic Shock. | Circ Heart Fail | 2026",
+   "Approach to the patient with severe hyperthyroidism-related complications. | J Clin Endocrinol Metab | 2026",
+   "The association between postoperative nadir serum potassium and mortality within 28-day after aortic | J Cardiothorac Surg | 2026",
+   "Hydroelectrolytic syndromes in neuroanesthesia and neurocritical care. | World J Crit Care Med | 2025",
+   "Transient extreme insulin resistance in a patient requiring extracorporeal membrane oxygenation for  | World J Diabetes | 2025",
+   "Personalized Sequential Nephron Blockade for Diuretic Resistance in Acute Decompensated Heart Failur | J Pers Med | 2026"
+  ]
+ },
+ {
+  "set": "T12 概念级(全字段): 阈值事件定义 + 高钾 + 复发率",
+  "query": "\"hyperkalemia\" AND (\"episode\" AND \"definition\") AND (\"confirmation rate\" OR \"repeat measurement\" OR \"recurrence\")",
+  "hits": 495,
+  "note": "ok",
+  "sample": [
+   "Serum Potassium and Mineralocorticoid Receptor Antagonists As Modifiers of Atrial Arrhythmia Recurre | Cureus | 2026",
+   "Status Dystonicus: An Updated Review on Diagnosis, Pathophysiology, and Management. | Ann Indian Acad Neurol | 2026",
+   "Prevalence, recurrence, risk factors and adverse clinical outcomes of hyperkalemia in maintenance he | BMC Nephrol | 2025",
+   "Laboratory Abnormalities Associated With the Use of Preventive Pharmacological Therapy for Urinary S | Urology | 2026",
+   "Medical Costs and Economic Impact of Hyperkalemia in a Cohort of Heart Failure Patients with Reduced | J Clin Med | 2024",
+   "Thyrotoxic Periodic Paralysis (TPP): A Comprehensive Review with Regional Insights from the Middle E | Cureus | 2025",
+   "Consequences of Recurrent Hyperkalemia on Cardiovascular Outcomes and Mortality. | JACC Adv | 2024",
+   "Three Episodes of Neuroleptic Malignant Syndrome With Risperidone: A Case Report and Literature Revi | Case Rep Psychiatry | 2025"
+  ]
+ }
+]

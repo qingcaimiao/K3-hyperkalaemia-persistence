@@ -1,0 +1,322 @@
+[
+ {
+  "concept": "A. 持续 vs 一过性高钾",
+  "track": "concept",
+  "query": "(\"persistent hyperkalemia\" OR \"sustained hyperkalemia\" OR \"transient hyperkalemia\" OR \"persistent hyperkalaemia\" OR \"transient hyperkalaemia\")",
+  "hits": 593,
+  "note": "ok",
+  "sample": [
+   "The Case | Persistent hyperkalemia in a normotensive woman. | Kidney Int | 2026",
+   "Revelation of Gordon Syndrome: A Case of Persistent Hyperkalemia. | Cureus | 2025",
+   "SUN-470 Unilateral Disease Bilateral Consequences A Case of Persistent Hyperkalemia After Unila | J Endocr Soc | 2025",
+   "Fludrocortisone Among Adult Renal Transplant Recipients With Persistent Hyperkalemia: Single-Ce | Exp Clin Transplant | 2022",
+   "SUN-196 Persistent Hyperkalemia After Unilateral Adrenalectomy for Aldosteronoma | J Endocr Soc | 2020"
+  ]
+ },
+ {
+  "concept": "A. 持续 vs 一过性高钾",
+  "track": "abstract",
+  "query": "(ABSTRACT:\"persistent hyperkalemia\" OR \"sustained hyperkalemia\" OR \"transient hyperkalemia\" OR \"persistent hyperkalaemia\" OR \"transient hyperkalaemia\")",
+  "hits": 321,
+  "note": "ok",
+  "sample": [
+   "Rare coexistence of aldosterone resistance and adrenal insufficiency in asymptomatic infant wit | World J Clin Pediatr | 2026",
+   "Striking Scrotal Hyperpigmentation as an Early Clinical Sign of Familial Glucocorticoid Deficie | J Clin Res Pediatr Endocrino | 2026",
+   "A Novel SCNN1B Mutation in a Neonate With Systemic Pseudohypoaldosteronism Type 1: Case Report. | Clin Case Rep | 2026",
+   "Importance of History in the Management of New-Onset Hyperkalemia. | Cureus | 2026",
+   "A Novel Homozygous SCNN1B Variant Causing Severe Systemic Pseudohypoaldosteronism Type 1B in a  | Cureus | 2026"
+  ]
+ },
+ {
+  "concept": "A. 持续 vs 一过性高钾",
+  "track": "title",
+  "query": "(TITLE:\"persistent hyperkalemia\" OR \"sustained hyperkalemia\" OR \"transient hyperkalemia\" OR \"persistent hyperkalaemia\" OR \"transient hyperkalaemia\")",
+  "hits": 290,
+  "note": "ok",
+  "sample": [
+   "The Case | Persistent hyperkalemia in a normotensive woman. | Kidney Int | 2026",
+   "Rare coexistence of aldosterone resistance and adrenal insufficiency in asymptomatic infant wit | World J Clin Pediatr | 2026",
+   "Striking Scrotal Hyperpigmentation as an Early Clinical Sign of Familial Glucocorticoid Deficie | J Clin Res Pediatr Endocrino | 2026",
+   "Revelation of Gordon Syndrome: A Case of Persistent Hyperkalemia. | Cureus | 2025",
+   "Delayed Diagnosis of Mild GLUT1 Deficiency Syndrome Caused by an Apparently De Novo SLC2A1 p.(P | Children (Basel) | 2026"
+  ]
+ },
+ {
+  "concept": "B. 高钾确认/复查",
+  "track": "concept",
+  "query": "(\"confirmed hyperkalemia\" OR \"confirmation of hyperkalemia\" OR \"repeat potassium\" OR \"repeat measurement\" AND hyperkal*)",
+  "hits": 83,
+  "note": "ok",
+  "sample": [
+   "Zilebesiran, a Small Interfering RNA Therapeutic Targeting Angiotensinogen: Mechanism, Clinical | Life (Basel) | 2026",
+   "Home Versus Clinic Blood Pressure Monitoring in Women with Hypertensive Disorders of Pregnancy: | J Clin Med | 2026",
+   "A clinically significant interaction between voriconazole and rifapentine: a case report and re | Front Med (Lausanne) | 2026",
+   "Mineralocorticoid receptor antagonist treatment in patients with renal insufficiency and the as | J Hypertens | 2024",
+   "Association Between Gestational Blood Pressure Trajectories and Postpartum Normotension Recover | JMIR Public Health Surveill | 2026"
+  ]
+ },
+ {
+  "concept": "B. 高钾确认/复查",
+  "track": "abstract",
+  "query": "(ABSTRACT:\"confirmed hyperkalemia\" OR \"confirmation of hyperkalemia\" OR \"repeat potassium\" OR \"repeat measurement\" AND hyperkal*)",
+  "hits": 83,
+  "note": "ok",
+  "sample": [
+   "Home Versus Clinic Blood Pressure Monitoring in Women with Hypertensive Disorders of Pregnancy: | J Clin Med | 2026",
+   "Zilebesiran, a Small Interfering RNA Therapeutic Targeting Angiotensinogen: Mechanism, Clinical | Life (Basel) | 2026",
+   "A clinically significant interaction between voriconazole and rifapentine: a case report and re | Front Med (Lausanne) | 2026",
+   "Association Between Gestational Blood Pressure Trajectories and Postpartum Normotension Recover | JMIR Public Health Surveill | 2026",
+   "Case Report: Perioperative acquired long QT syndrome secondary to severe hypokalemia from duode | Front Med (Lausanne) | 2026"
+  ]
+ },
+ {
+  "concept": "B. 高钾确认/复查",
+  "track": "title",
+  "query": "(TITLE:\"confirmed hyperkalemia\" OR \"confirmation of hyperkalemia\" OR \"repeat potassium\" OR \"repeat measurement\" AND hyperkal*)",
+  "hits": 83,
+  "note": "ok",
+  "sample": [
+   "Home Versus Clinic Blood Pressure Monitoring in Women with Hypertensive Disorders of Pregnancy: | J Clin Med | 2026",
+   "Zilebesiran, a Small Interfering RNA Therapeutic Targeting Angiotensinogen: Mechanism, Clinical | Life (Basel) | 2026",
+   "A clinically significant interaction between voriconazole and rifapentine: a case report and re | Front Med (Lausanne) | 2026",
+   "Association Between Gestational Blood Pressure Trajectories and Postpartum Normotension Recover | JMIR Public Health Surveill | 2026",
+   "Case Report: Perioperative acquired long QT syndrome secondary to severe hypokalemia from duode | Front Med (Lausanne) | 2026"
+  ]
+ },
+ {
+  "concept": "C. 高钾回落/复常",
+  "track": "concept",
+  "query": "(\"resolution of hyperkalemia\" OR \"reversion of hyperkalemia\" OR \"hyperkalemia resolved\" OR \"hyperkalemia resolution\")",
+  "hits": 102,
+  "note": "ok",
+  "sample": [
+   "Importance of History in the Management of New-Onset Hyperkalemia. | Cureus | 2026",
+   "Bacterial Superantigen-Mediated Toxic Shock: Hyperinflammatory Trajectories and Extracorporeal  | Toxins (Basel) | 2026",
+   "Impact of implementing an order panel for insulin and dextrose dosing for management of hyperka | Am J Health Syst Pharm | 2026",
+   "A Rare Case of Resistant Hyperkalemia: Unveiling Biktarvy’s Impact on Renal Function in HIV Man | Spartan Med Res J | None",
+   "Concomitant Enalapril and Spironolactone-Induced Hyperkalemia in a Pediatric Patient. | J Pediatr Pharmacol Ther | 2026"
+  ]
+ },
+ {
+  "concept": "C. 高钾回落/复常",
+  "track": "abstract",
+  "query": "(ABSTRACT:\"resolution of hyperkalemia\" OR \"reversion of hyperkalemia\" OR \"hyperkalemia resolved\" OR \"hyperkalemia resolution\")",
+  "hits": 78,
+  "note": "ok",
+  "sample": [
+   "Bacterial Superantigen-Mediated Toxic Shock: Hyperinflammatory Trajectories and Extracorporeal  | Toxins (Basel) | 2026",
+   "Impact of implementing an order panel for insulin and dextrose dosing for management of hyperka | Am J Health Syst Pharm | 2026",
+   "Concomitant Enalapril and Spironolactone-Induced Hyperkalemia in a Pediatric Patient. | J Pediatr Pharmacol Ther | 2026",
+   "Importance of History in the Management of New-Onset Hyperkalemia. | Cureus | 2026",
+   "Forgotten but Striking: Complete Tricuspid Valve Degeneration Unmasked by Lancisi's Sign. | Cureus | 2026"
+  ]
+ },
+ {
+  "concept": "C. 高钾回落/复常",
+  "track": "title",
+  "query": "(TITLE:\"resolution of hyperkalemia\" OR \"reversion of hyperkalemia\" OR \"hyperkalemia resolved\" OR \"hyperkalemia resolution\")",
+  "hits": 68,
+  "note": "ok",
+  "sample": [
+   "Bacterial Superantigen-Mediated Toxic Shock: Hyperinflammatory Trajectories and Extracorporeal  | Toxins (Basel) | 2026",
+   "Impact of implementing an order panel for insulin and dextrose dosing for management of hyperka | Am J Health Syst Pharm | 2026",
+   "Concomitant Enalapril and Spironolactone-Induced Hyperkalemia in a Pediatric Patient. | J Pediatr Pharmacol Ther | 2026",
+   "Importance of History in the Management of New-Onset Hyperkalemia. | Cureus | 2026",
+   "Forgotten but Striking: Complete Tricuspid Valve Degeneration Unmasked by Lancisi's Sign. | Cureus | 2026"
+  ]
+ },
+ {
+  "concept": "D. 阈值定义事件",
+  "track": "concept",
+  "query": "(\"threshold-defined\" AND (hyperkal* OR potassium)) OR (\"episode definition\" AND hyperkal*)",
+  "hits": 667,
+  "note": "ok",
+  "sample": [
+   "Fampridine for Symptomatic Treatment in Chronic Inflammatory Demyelinating Polyneuropathy: A Ra | J Peripher Nerv Syst | 2026",
+   "Case Report: Usefulness of transcutaneous bilirubin measurement for the early detection of seve | Front Pediatr | 2026",
+   "How to train your neuron: developing a detailed, up-to-date, multipurpose model of hippocampal  | Front Comput Neurosci | None",
+   "Rhizospheric glycosyltransferase repertoires as a resource for enabling sustainable bioprocessi | Sci Rep | 2026",
+   "Enhanced rubber yield and its stability during the rainy season: insights from five-year yield  | Front Plant Sci | 2026"
+  ]
+ },
+ {
+  "concept": "D. 阈值定义事件",
+  "track": "abstract",
+  "query": "(ABSTRACT:\"threshold-defined\" AND (hyperkal* OR potassium)) OR (\"episode definition\" AND hyperkal*)",
+  "hits": 10,
+  "note": "ok",
+  "sample": [
+   "Cost-effectiveness of combining finerenone and sodium-glucose cotransporter 2 inhibitors with s | Ren Fail | 2025",
+   "From leaf to blend: CNN-enhanced multi-source feature fusion enables threshold-driven style con | Biotechnol Biofuels Bioprod | 2025",
+   "Association between antithrombin levels and prognosis in patients with sepsis: a retrospective  | J Intensive Care | 2026",
+   "An Open-Label, Multicenter, Phase II Study of Bexarotene in Patients with Adult T-Cell Leukemia | J Dermatol | 2025",
+   "A Programmed DNA Dynamic Assembly-Guided Molecular Amplifier for Authentic Information Decrypti | Adv Sci (Weinh) | 2025"
+  ]
+ },
+ {
+  "concept": "D. 阈值定义事件",
+  "track": "title",
+  "query": "(TITLE:\"threshold-defined\" AND (hyperkal* OR potassium)) OR (\"episode definition\" AND hyperkal*)",
+  "hits": 1,
+  "note": "ok",
+  "sample": [
+   "A | Therapielexikon Neurologie | 2005"
+  ]
+ },
+ {
+  "concept": "E. 血钾短期变异",
+  "track": "concept",
+  "query": "(\"potassium variability\" OR \"within-patient variability\" AND potassium OR \"biological variation\" AND potassium)",
+  "hits": 5,
+  "note": "ok",
+  "sample": [
+   "Assessment of correlation between effluent fluid ionized calcium and post-filter ionized calciu | BMC Nephrol | 2026",
+   "Population pharmacokinetic and exposure-response analyses of ivosidenib in patients with IDH1-m | Clin Transl Sci | 2021",
+   "A Risk Assessment of the Jaffe vs Enzymatic Method for Creatinine Measurement in an Outpatient  | PLoS One | 2015",
+   "Scientific Abstracts | Reprod Sci | 2011",
+   "Abstracts | Res Pract Thromb Haemost | 2020"
+  ]
+ },
+ {
+  "concept": "E. 血钾短期变异",
+  "track": "abstract",
+  "query": "(ABSTRACT:\"potassium variability\" OR \"within-patient variability\" AND potassium OR \"biological variation\" AND potassium)",
+  "hits": 5,
+  "note": "ok",
+  "sample": [
+   "Assessment of correlation between effluent fluid ionized calcium and post-filter ionized calciu | BMC Nephrol | 2026",
+   "Population pharmacokinetic and exposure-response analyses of ivosidenib in patients with IDH1-m | Clin Transl Sci | 2021",
+   "A Risk Assessment of the Jaffe vs Enzymatic Method for Creatinine Measurement in an Outpatient  | PLoS One | 2015",
+   "Scientific Abstracts | Reprod Sci | 2011",
+   "Abstracts | Res Pract Thromb Haemost | 2020"
+  ]
+ },
+ {
+  "concept": "E. 血钾短期变异",
+  "track": "title",
+  "query": "(TITLE:\"potassium variability\" OR \"within-patient variability\" AND potassium OR \"biological variation\" AND potassium)",
+  "hits": 5,
+  "note": "ok",
+  "sample": [
+   "Assessment of correlation between effluent fluid ionized calcium and post-filter ionized calciu | BMC Nephrol | 2026",
+   "Population pharmacokinetic and exposure-response analyses of ivosidenib in patients with IDH1-m | Clin Transl Sci | 2021",
+   "A Risk Assessment of the Jaffe vs Enzymatic Method for Creatinine Measurement in an Outpatient  | PLoS One | 2015",
+   "Scientific Abstracts | Reprod Sci | 2011",
+   "Abstracts | Res Pract Thromb Haemost | 2020"
+  ]
+ },
+ {
+  "concept": "F. 心脏ICU + 高钾",
+  "track": "concept",
+  "query": "(hyperkal* AND (\"cardiac intensive care\" OR \"coronary care unit\" OR \"cardiac ICU\"))",
+  "hits": 548,
+  "note": "ok",
+  "sample": [
+   "New Insights into Cardiac Intensive Care. | Rev Cardiovasc Med | 2026",
+   "Yellow Oleander (Thevetia peruviana) Toxicity from a Misrepresented Dietary Supplement: A Case  | Clin Pract Cases Emerg Med | 2026",
+   "Conservative management of mad honey poisoning presenting with bradycardia: a case report. | J Med Case Rep | 2026",
+   "Physiologic response to sodium bicarbonate administration during pediatric in-hospital cardiac  | Front Med (Lausanne) | 2026",
+   "Renal Replacement Therapy in Pediatric Cardiac Intensive Care: A Retrospective Analysis of Moda | J Clin Med | 2025"
+  ]
+ },
+ {
+  "concept": "F. 心脏ICU + 高钾",
+  "track": "abstract",
+  "query": "(ABSTRACT:hyperkal* AND (\"cardiac intensive care\" OR \"coronary care unit\" OR \"cardiac ICU\")",
+  "hits": 0,
+  "note": "NOT-FOUND",
+  "sample": []
+ },
+ {
+  "concept": "F. 心脏ICU + 高钾",
+  "track": "title",
+  "query": "(TITLE:hyperkal* AND (\"cardiac intensive care\" OR \"coronary care unit\" OR \"cardiac ICU\")",
+  "hits": 0,
+  "note": "NOT-FOUND",
+  "sample": []
+ },
+ {
+  "concept": "G. 高钾 + 血钾轨迹",
+  "track": "concept",
+  "query": "(hyperkal* AND (\"trajectory\" OR \"trajectories\") AND potassium)",
+  "hits": 1596,
+  "note": "ok",
+  "sample": [
+   "Twenty-Four-Week UACR Response Trajectories and Clinical Correlates of Residual Albuminuria in  | Diabetes Metab Syndr Obes | 2026",
+   "Serum chloride trajectory and 28-day mortality in critically ill congestive heart failure: A re | Medicine (Baltimore) | 2026",
+   "Impact of postoperative serum potassium levels and variability on 1-year mortality rate in coro | J Cardiothorac Surg | 2026",
+   "Hyperkalemia risk and potassium trajectory after finerenone initiation: a real-world cohort stu | Clin Exp Nephrol | 2026",
+   "Mapping the complexity of care in patients with heart disease living with chronic kidney diseas | Clin Kidney J | 2026"
+  ]
+ },
+ {
+  "concept": "G. 高钾 + 血钾轨迹",
+  "track": "abstract",
+  "query": "(ABSTRACT:hyperkal* AND (\"trajectory\" OR \"trajectories\") AND potassium)",
+  "hits": 157,
+  "note": "ok",
+  "sample": [
+   "Hyperkalemia risk and potassium trajectory after finerenone initiation: a real-world cohort stu | Clin Exp Nephrol | 2026",
+   "Discovery of postoperative clinical states linked to cardiac surgery-associated acute kidney in | BioData Min | 2026",
+   "eGFR- and Potassium-Guided Stewardship of SGLT2 Inhibitors and Finerenone in Albuminuric Chroni | Diabetes Metab Syndr Obes | 2026",
+   "Association of finerenone with graded proteinuria improvement in type 2 diabetes with chronic k | Front Endocrinol (Lausanne) | 2026",
+   "SGLT2 inhibitors in kidney transplant recipients: metabolic changes, potassium-related safety a | Front Transplant | 2026"
+  ]
+ },
+ {
+  "concept": "G. 高钾 + 血钾轨迹",
+  "track": "title",
+  "query": "(TITLE:hyperkal* AND (\"trajectory\" OR \"trajectories\") AND potassium)",
+  "hits": 36,
+  "note": "ok",
+  "sample": [
+   "Hyperkalemia risk and potassium trajectory after finerenone initiation: a real-world cohort stu | Clin Exp Nephrol | 2026",
+   "Urgent initiation of hemodialysis versus peritoneal dialysis in severe hyperkalemia: a prospect | Clin Kidney J | 2025",
+   "Trends in Hyperkalemia‐Related Sudden Cardiac Death Among Older Adults in the United States, 19 | Clin Cardiol | 2026",
+   "Efficacy and safety of sodium zirconium cyclosilicate on non-dialysis days for long-term manage | Int Urol Nephrol | 2026",
+   "Sodium zirconium cyclosilicate compared with potassium restriction for hyperkalemia management  | J Diabetes Investig | 2026"
+  ]
+ },
+ {
+  "concept": "H. 高钾 + 预后分层",
+  "track": "concept",
+  "query": "(hyperkal* AND (\"prognostic\" OR \"outcome\") AND (\"transient\" OR \"persistent\") AND potassium)",
+  "hits": 7043,
+  "note": "ok",
+  "sample": [
+   "eGFR- and Potassium-Guided Stewardship of SGLT2 Inhibitors and Finerenone in Albuminuric Chroni | Diabetes Metab Syndr Obes | 2026",
+   "Post-transplant atrial tachyarrhythmias: Epidemiology, mechanisms, outcomes, and management acr | World J Transplant | 2026",
+   "Perioperative management of patients with primary aldosteronism: a practical approach for the e | Endocr Connect | 2026",
+   "Diuretics in Cardiovascular Disease: For How Long and at What Dose? | J Cardiovasc Dev Dis | 2026",
+   "Serum Potassium and Mineralocorticoid Receptor Antagonists As Modifiers of Atrial Arrhythmia Re | Cureus | 2026"
+  ]
+ },
+ {
+  "concept": "H. 高钾 + 预后分层",
+  "track": "abstract",
+  "query": "(ABSTRACT:hyperkal* AND (\"prognostic\" OR \"outcome\") AND (\"transient\" OR \"persistent\") AND potassium)",
+  "hits": 765,
+  "note": "ok",
+  "sample": [
+   "eGFR- and Potassium-Guided Stewardship of SGLT2 Inhibitors and Finerenone in Albuminuric Chroni | Diabetes Metab Syndr Obes | 2026",
+   "Serum Potassium and Mineralocorticoid Receptor Antagonists As Modifiers of Atrial Arrhythmia Re | Cureus | 2026",
+   "KDIGO stage 3 acute kidney injury in children with severe Plasmodium falciparum malaria includi | BMC Nephrol | 2026",
+   "Impact of the Four Pillars on Electrolyte Derangements during State-of-the-Art Therapy for Diab | Electrolyte Blood Press | 2026",
+   "Association of finerenone with graded proteinuria improvement in type 2 diabetes with chronic k | Front Endocrinol (Lausanne) | 2026"
+  ]
+ },
+ {
+  "concept": "H. 高钾 + 预后分层",
+  "track": "title",
+  "query": "(TITLE:hyperkal* AND (\"prognostic\" OR \"outcome\") AND (\"transient\" OR \"persistent\") AND potassium)",
+  "hits": 152,
+  "note": "ok",
+  "sample": [
+   "Delayed Diagnosis of Mild GLUT1 Deficiency Syndrome Caused by an Apparently De Novo SLC2A1 p.(P | Children (Basel) | 2026",
+   "Rare coexistence of aldosterone resistance and adrenal insufficiency in asymptomatic infant wit | World J Clin Pediatr | 2026",
+   "Fatal Hyperkalemia Following Reduction of a Strangulated Obturator Hernia: A Pitfall in Assessi | Surg Case Rep | 2026",
+   "Hyperkalemia in Severe Burn Injuries: Pathogenesis and Therapeutic Advances. | J Community Hosp Intern Med  | 2026",
+   "Pseudo-Addisonian Crisis With Hyponatremia and Hyperkalaemia in a Late Pregnant Bitch. | Vet Med Sci | 2026"
+  ]
+ }
+]

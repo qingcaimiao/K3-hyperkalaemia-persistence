@@ -1,0 +1,90 @@
+{
+ "sust>=2|eICU-CRD|72 h": {
+  "transient": {
+   "or_": 2.72,
+   "lo": 1.84,
+   "hi": 3.83
+  },
+  "intermittent": {
+   "or_": 3.74,
+   "lo": 1.82,
+   "hi": 6.09
+  },
+  "conf_not_assessed": {
+   "or_": 3.16,
+   "lo": 1.02,
+   "hi": 6.85
+  },
+  "sustained": {
+   "or_": 19.28,
+   "lo": 5.79,
+   "hi": 39.32
+  }
+ },
+ "sust>=2|eICU-CRD|7 d": {
+  "transient": {
+   "or_": 2.69,
+   "lo": 1.6,
+   "hi": 3.52
+  },
+  "intermittent": {
+   "or_": 2.95,
+   "lo": 1.17,
+   "hi": 4.32
+  },
+  "conf_not_assessed": {
+   "or_": 2.43,
+   "lo": 0.66,
+   "hi": 4.54
+  },
+  "sustained": {
+   "or_": 10.81,
+   "lo": 3.06,
+   "hi": 22.13
+  }
+ },
+ "sust>=3|eICU-CRD|72 h": {
+  "transient": {
+   "or_": 2.67,
+   "lo": 1.83,
+   "hi": 3.85
+  },
+  "intermittent": {
+   "or_": 3.63,
+   "lo": 1.69,
+   "hi": 5.96
+  },
+  "conf_not_assessed": {
+   "or_": 5.96,
+   "lo": 2.72,
+   "hi": 11.93
+  },
+  "sustained": {
+   "or_": 13.39,
+   "lo": 1.33,
+   "hi": 28.97
+  }
+ },
+ "sust>=3|eICU-CRD|7 d": {
+  "transient": {
+   "or_": 2.25,
+   "lo": 1.64,
+   "hi": 3.48
+  },
+  "intermittent": {
+   "or_": 2.27,
+   "lo": 1.26,
+   "hi": 4.23
+  },
+  "conf_not_assessed": {
+   "or_": 3.14,
+   "lo": 1.07,
+   "hi": 7.13
+  },
+  "sustained": {
+   "or_": 6.07,
+   "lo": 1.35,
+   "hi": 17.29
+  }
+ }
+}

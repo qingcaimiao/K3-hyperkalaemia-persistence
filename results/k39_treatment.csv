@@ -1,0 +1,7 @@
+﻿db,window,n_tx,conf_tx,pct_tx,n_notx,conf_notx,pct_notx,n_total
+MIMIC-IV,"wide[idx-6h,idx+复查]",479,127,26.5,553,97,17.5,1032
+MIMIC-IV,"narrow[idx,idx+复查]",375,103,27.5,657,121,18.4,1032
+eICU-CRD,"wide[idx-6h,idx+复查]",42,15,35.7,720,219,30.4,762
+eICU-CRD,"narrow[idx,idx+复查]",31,9,29.0,731,225,30.8,762
+MIMIC-IV,NNR6h,615,137,4.49,1182,0,0.0,1182
+eICU-CRD,NNR6h,419,151,2.77,997,0,0.0,997

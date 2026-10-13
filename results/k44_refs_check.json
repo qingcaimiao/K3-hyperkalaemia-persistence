@@ -1,0 +1,86 @@
+[
+ {
+  "ref": "1",
+  "doi": "10.1016/j.phrs.2016.09.039",
+  "claim": "Emergency management of severe hyperkalemia: guideline for best practi",
+  "crossref": "OK | Emergency management of severe hyperkalemia: Guideline for best practi (2016) | Pharmacological Research",
+  "epmc": "OK | Emergency management of severe hyperkalemia: Guideline for b | PMID 27693804"
+ },
+ {
+  "ref": "2",
+  "doi": "10.1161/CIRCHEARTFAILURE.113.000792",
+  "claim": "Incidence, determinants, and prognostic significance of hyperkalemia a",
+  "crossref": "OK | Incidence, Determinants, and Prognostic Significance of Hyperkalemia a (2014) | Circulation: Heart Failure",
+  "epmc": "OK | Incidence, determinants, and prognostic significance of hype | PMID 24297687"
+ },
+ {
+  "ref": "3",
+  "doi": "10.1093/ehjcvp/pvy015",
+  "claim": "Expert consensus document on the management of hyperkalaemia in patien",
+  "crossref": "OK | Expert consensus document on the management of hyperkalaemia in patien (2018) | European Heart Journal – Cardiovascular ",
+  "epmc": "OK | Expert consensus document on the management of hyperkalaemia | PMID 29726985"
+ },
+ {
+  "ref": "5",
+  "doi": "10.1002/emp2.12572",
+  "claim": "Hyperkalemia management in the emergency department: an expert panel c",
+  "crossref": "OK | Hyperkalemia management in the emergency department: An expert panel c (2021) | JACEP Open",
+  "epmc": "OK | Hyperkalemia management in the emergency department: An expe | PMID 34632453"
+ },
+ {
+  "ref": "6",
+  "doi": "10.1186/cc11872",
+  "claim": "Severe hyperkalemia requiring hospitalization: predictors of mortality",
+  "crossref": "OK | Severe hyperkalemia requiring hospitalization: predictors of mortality (2012) | Critical Care",
+  "epmc": "OK | Severe hyperkalemia requiring hospitalization: predictors of | PMID 23171442"
+ },
+ {
+  "ref": "7",
+  "doi": "10.1136/bmj.39119.607986.47",
+  "claim": "Spurious hyperkalaemia",
+  "crossref": "OK | Spurious hyperkalaemia (2007) | BMJ",
+  "epmc": "OK | Spurious hyperkalaemia. | PMID 17395950"
+ },
+ {
+  "ref": "8",
+  "doi": "10.1016/j.lab.2005.11.008",
+  "claim": "Pseudohyperkalemia in serum: the phenomenon and its clinical magnitude",
+  "crossref": "OK | Pseudohyperkalemia in serum: the phenomenon and its clinical magnitude (2006) | Journal of Laboratory and Clinical Medic",
+  "epmc": "OK | Pseudohyperkalemia in serum: the phenomenon and its clinical | PMID 16503244"
+ },
+ {
+  "ref": "9",
+  "doi": "10.3109/10408363.2014.966898",
+  "claim": "Pseudohyperkalemia: a new twist on an old phenomenon",
+  "crossref": "OK | Pseudohyperkalemia: A new twist on an old phenomenon (2014) | Critical Reviews in Clinical Laboratory ",
+  "epmc": "OK | Pseudohyperkalemia: A new twist on an old phenomenon. | PMID 25319088"
+ },
+ {
+  "ref": "10",
+  "doi": "10.1053/j.ajkd.2005.06.005",
+  "claim": "Pseudohyperkalemia due to pneumatic tube transport in a leukemic patie",
+  "crossref": "OK | Pseudohyperkalemia Due to Pneumatic Tube Transport in a Leukemic Patie (2005) | American Journal of Kidney Diseases",
+  "epmc": "OK | Pseudohyperkalemia due to pneumatic tube transport in a leuk | PMID 16183430"
+ },
+ {
+  "ref": "11",
+  "doi": "10.1038/s41597-022-01899-x",
+  "claim": "MIMIC-IV, a freely accessible electronic health record dataset",
+  "crossref": "OK | MIMIC-IV, a freely accessible electronic health record dataset (2023) | Scientific Data",
+  "epmc": "OK | MIMIC-IV, a freely accessible electronic health record datas | PMID 36596836"
+ },
+ {
+  "ref": "12",
+  "doi": "10.1038/sdata.2018.178",
+  "claim": "The eICU Collaborative Research Database, a freely available multi-cen",
+  "crossref": "OK | The eICU Collaborative Research Database, a freely available multi-cen (2018) | Scientific Data",
+  "epmc": "OK | The eICU Collaborative Research Database, a freely available | PMID 30204154"
+ },
+ {
+  "ref": "13",
+  "doi": "10.1016/S0140-6736(07)61602-X",
+  "claim": "The Strengthening the Reporting of Observational Studies in Epidemiolo",
+  "crossref": "OK | The Strengthening the Reporting of Observational Studies in Epidemiolo (2007) | The Lancet",
+  "epmc": "OK | The Strengthening the Reporting of Observational Studies in  | PMID 18064739"
+ }
+]

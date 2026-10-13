@@ -1,0 +1,234 @@
+{
+ "MIMIC-IV": {
+  "n_coh": 20322,
+  "n_landmark": 7427,
+  "full": [
+   {
+    "grp": "no_event",
+    "n": 19140,
+    "died": 4.4
+   },
+   {
+    "grp": "transient",
+    "n": 808,
+    "died": 12.5
+   },
+   {
+    "grp": "confirmed",
+    "n": 138,
+    "died": 22.5
+   },
+   {
+    "grp": "sustained",
+    "n": 86,
+    "died": 51.2
+   },
+   {
+    "grp": "unknown",
+    "n": 150,
+    "died": 32.0
+   }
+  ],
+  "main": [
+   {
+    "grp": "no_event",
+    "n": 6672,
+    "died": 6.2,
+    "los_med": 3.3
+   },
+   {
+    "grp": "transient",
+    "n": 544,
+    "died": 11.6,
+    "los_med": 5.0
+   },
+   {
+    "grp": "confirmed",
+    "n": 96,
+    "died": 16.7,
+    "los_med": 8.5
+   },
+   {
+    "grp": "sustained",
+    "n": 40,
+    "died": 20.0,
+    "los_med": 8.6
+   },
+   {
+    "grp": "unknown",
+    "n": 75,
+    "died": 14.7,
+    "los_med": 4.9
+   }
+  ],
+  "bands": [
+   {
+    "band": "5.5–5.9",
+    "transient_n": 350,
+    "transient_died": 12.0,
+    "confirmed_n": 63,
+    "confirmed_died": 17.5,
+    "sustained_n": 28,
+    "sustained_died": 25.0
+   },
+   {
+    "band": "6.0–6.4",
+    "transient_n": 85,
+    "transient_died": 11.8,
+    "confirmed_n": 23,
+    "confirmed_died": 8.7,
+    "sustained_n": 5,
+    "sustained_died": 0.0
+   },
+   {
+    "band": "≥6.5",
+    "transient_n": 109,
+    "transient_died": 10.1,
+    "confirmed_n": 10,
+    "confirmed_died": 30.0,
+    "sustained_n": 7,
+    "sustained_died": 14.3
+   }
+  ],
+  "reg": {
+   "g_transient": {
+    "or_": 1.85,
+    "ci": [
+     1.23,
+     2.61
+    ]
+   },
+   "g_confirmed": {
+    "or_": 2.67,
+    "ci": [
+     1.48,
+     4.56
+    ]
+   },
+   "g_sustained": {
+    "or_": 3.25,
+    "ci": [
+     1.24,
+     6.47
+    ]
+   }
+  },
+  "died_no_event": 6.2
+ },
+ "eICU-CRD": {
+  "n_coh": 28805,
+  "n_landmark": 10571,
+  "full": [
+   {
+    "grp": "no_event",
+    "n": 27808,
+    "died": 5.8
+   },
+   {
+    "grp": "transient",
+    "n": 528,
+    "died": 18.0
+   },
+   {
+    "grp": "confirmed",
+    "n": 134,
+    "died": 22.4
+   },
+   {
+    "grp": "sustained",
+    "n": 100,
+    "died": 53.0
+   },
+   {
+    "grp": "unknown",
+    "n": 235,
+    "died": 32.8
+   }
+  ],
+  "main": [
+   {
+    "grp": "no_event",
+    "n": 9979,
+    "died": 7.6,
+    "los_med": 3.9
+   },
+   {
+    "grp": "transient",
+    "n": 352,
+    "died": 14.8,
+    "los_med": 5.0
+   },
+   {
+    "grp": "confirmed",
+    "n": 94,
+    "died": 16.0,
+    "los_med": 5.6
+   },
+   {
+    "grp": "sustained",
+    "n": 40,
+    "died": 27.5,
+    "los_med": 6.4
+   },
+   {
+    "grp": "unknown",
+    "n": 106,
+    "died": 14.2,
+    "los_med": 4.1
+   }
+  ],
+  "bands": [
+   {
+    "band": "5.5–5.9",
+    "transient_n": 262,
+    "transient_died": 14.5,
+    "confirmed_n": 49,
+    "confirmed_died": 22.4,
+    "sustained_n": 25,
+    "sustained_died": 32.0
+   },
+   {
+    "band": "6.0–6.4",
+    "transient_n": 62,
+    "transient_died": 14.5,
+    "confirmed_n": 23,
+    "confirmed_died": 13.0,
+    "sustained_n": 7,
+    "sustained_died": 28.6
+   },
+   {
+    "band": "≥6.5",
+    "transient_n": 28,
+    "transient_died": 17.9,
+    "confirmed_n": 22,
+    "confirmed_died": 4.5,
+    "sustained_n": 8,
+    "sustained_died": 12.5
+   }
+  ],
+  "reg": {
+   "g_transient": {
+    "or_": 2.04,
+    "ci": [
+     1.42,
+     2.86
+    ]
+   },
+   "g_confirmed": {
+    "or_": 2.27,
+    "ci": [
+     1.18,
+     3.76
+    ]
+   },
+   "g_sustained": {
+    "or_": 4.13,
+    "ci": [
+     2.0,
+     7.68
+    ]
+   }
+  },
+  "died_no_event": 7.6
+ }
+}

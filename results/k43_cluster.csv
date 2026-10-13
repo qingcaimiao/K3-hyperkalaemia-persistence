@@ -1,0 +1,7 @@
+﻿db,group,or_,lo,hi,bootstrap,n_boot,n
+MIMIC-IV,transient,1.55,0.97,2.52,simple,400,18138
+MIMIC-IV,intermittent,4.43,2.29,7.56,simple,400,18138
+MIMIC-IV,sustained,11.88,5.57,20.82,simple,400,18138
+eICU-CRD,transient,2.77,1.84,3.8,hospital-clustered,400,22979
+eICU-CRD,intermittent,4.51,2.04,6.19,hospital-clustered,400,22979
+eICU-CRD,sustained,8.04,3.31,16.91,hospital-clustered,400,22979

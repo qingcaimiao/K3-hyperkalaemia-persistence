@@ -1,0 +1,90 @@
+{
+ "sust>=2|MIMIC-IV|72 h": {
+  "transient": {
+   "or_": 1.54,
+   "lo": 0.99,
+   "hi": 2.47
+  },
+  "intermittent": {
+   "or_": 4.39,
+   "lo": 2.37,
+   "hi": 7.62
+  },
+  "conf_not_assessed": {
+   "or_": 8.48,
+   "lo": 3.32,
+   "hi": 23.61
+  },
+  "sustained": {
+   "or_": 9.62,
+   "lo": 3.44,
+   "hi": 19.5
+  }
+ },
+ "sust>=2|MIMIC-IV|7 d": {
+  "transient": {
+   "or_": 1.9,
+   "lo": 1.28,
+   "hi": 2.72
+  },
+  "intermittent": {
+   "or_": 2.96,
+   "lo": 1.9,
+   "hi": 4.49
+  },
+  "conf_not_assessed": {
+   "or_": 3.43,
+   "lo": 0.99,
+   "hi": 8.17
+  },
+  "sustained": {
+   "or_": 2.48,
+   "lo": 0.88,
+   "hi": 6.29
+  }
+ },
+ "sust>=3|MIMIC-IV|72 h": {
+  "transient": {
+   "or_": 1.55,
+   "lo": 1.0,
+   "hi": 2.55
+  },
+  "intermittent": {
+   "or_": 4.26,
+   "lo": 2.25,
+   "hi": 7.69
+  },
+  "conf_not_assessed": {
+   "or_": 15.23,
+   "lo": 4.77,
+   "hi": 25.03
+  },
+  "sustained": {
+   "or_": 8.1,
+   "lo": 1.77,
+   "hi": 16.43
+  }
+ },
+ "sust>=3|MIMIC-IV|7 d": {
+  "transient": {
+   "or_": 1.93,
+   "lo": 1.28,
+   "hi": 2.69
+  },
+  "intermittent": {
+   "or_": 2.99,
+   "lo": 1.9,
+   "hi": 4.5
+  },
+  "conf_not_assessed": {
+   "or_": 3.44,
+   "lo": 1.23,
+   "hi": 7.29
+  },
+  "sustained": {
+   "or_": 2.73,
+   "lo": 0.61,
+   "hi": 5.94
+  }
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "MIMIC-IV": {
+  "n_report": 1032,
+  "tx_share": 46.4,
+  "bands": [
+   {
+    "band": "5.5–5.9",
+    "n": 679,
+    "conf_notx": 19.1,
+    "n_notx": 341,
+    "conf_tx": 25.1,
+    "n_tx": 338,
+    "conf_all": 22.1
+   },
+   {
+    "band": "6.0–6.4",
+    "n": 161,
+    "conf_notx": 22.0,
+    "n_notx": 82,
+    "conf_tx": 32.9,
+    "n_tx": 79,
+    "conf_all": 27.3
+   },
+   {
+    "band": "≥6.5",
+    "n": 192,
+    "conf_notx": 10.8,
+    "n_notx": 130,
+    "conf_tx": 25.8,
+    "n_tx": 62,
+    "conf_all": 15.6
+   }
+  ],
+  "intensity": [
+   {
+    "n_tx": 0,
+    "n": 553,
+    "med_k_idx": 5.8,
+    "confirm": 17.5
+   },
+   {
+    "n_tx": 1,
+    "n": 329,
+    "med_k_idx": 5.7,
+    "confirm": 25.2
+   },
+   {
+    "n_tx": 2,
+    "n": 122,
+    "med_k_idx": 5.7,
+    "confirm": 27.0
+   },
+   {
+    "n_tx": 3,
+    "n": 23,
+    "med_k_idx": 5.8,
+    "confirm": 43.5
+   }
+  ],
+  "or_tx": 1.6,
+  "or_tx_ci": [
+   1.17,
+   2.1
+  ],
+  "cat_shares": {
+   "insulin_glucose": 37.8,
+   "binder": 4.5,
+   "iv_calcium": 12.6,
+   "bicarbonate": 3.1,
+   "rrt": 6.2
+  }
+ },
+ "eICU-CRD": {
+  "n_report": 762,
+  "tx_share": 5.5,
+  "bands": [
+   {
+    "band": "5.5–5.9",
+    "n": 529,
+    "conf_notx": 26.4,
+    "n_notx": 500,
+    "conf_tx": 31.0,
+    "n_tx": 29,
+    "conf_all": 26.7
+   },
+   {
+    "band": "6.0–6.4",
+    "n": 147,
+    "conf_notx": 35.3,
+    "n_notx": 136,
+    "conf_tx": 36.4,
+    "n_tx": 11,
+    "conf_all": 35.4
+   },
+   {
+    "band": "≥6.5",
+    "n": 86,
+    "conf_notx": 46.4,
+    "n_notx": 84,
+    "conf_tx": 100.0,
+    "n_tx": 2,
+    "conf_all": 47.7
+   }
+  ],
+  "intensity": [
+   {
+    "n_tx": 0,
+    "n": 720,
+    "med_k_idx": 5.7,
+    "confirm": 30.4
+   },
+   {
+    "n_tx": 1,
+    "n": 33,
+    "med_k_idx": 5.7,
+    "confirm": 36.4
+   }
+  ],
+  "or_tx": 1.3,
+  "or_tx_ci": [
+   0.72,
+   2.38
+  ],
+  "cat_shares": {
+   "insulin_glucose": 0.0,
+   "binder": 0.3,
+   "iv_calcium": 0.0,
+   "bicarbonate": 2.1,
+   "rrt": 4.3
+  }
+ }
+}

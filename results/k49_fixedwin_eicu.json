@@ -1,0 +1,60 @@
+{
+ "72 h": {
+  "transient": {
+   "or_": 2.71,
+   "lo": 1.36,
+   "hi": 4.29
+  },
+  "intermittent": {
+   "or_": 1.05,
+   "lo": 0.56,
+   "hi": 2.65
+  },
+  "sustained": {
+   "or_": 8.31,
+   "lo": 3.56,
+   "hi": 17.0
+  }
+ },
+ "72 h_n": {
+  "n": 21746,
+  "no_event": 21433,
+  "transient": 123,
+  "intermittent": 43,
+  "sustained": 30,
+  "unclassified": 117,
+  "mort_no_event": 6.6,
+  "mort_transient": 13.8,
+  "mort_intermittent": 4.7,
+  "mort_sustained": 33.3
+ },
+ "7 d": {
+  "transient": {
+   "or_": 1.6,
+   "lo": 0.65,
+   "hi": 2.97
+  },
+  "intermittent": {
+   "or_": 0.55,
+   "lo": 0.42,
+   "hi": 1.69
+  },
+  "sustained": {
+   "or_": 5.21,
+   "lo": 1.52,
+   "hi": 14.16
+  }
+ },
+ "7 d_n": {
+  "n": 9920,
+  "no_event": 9738,
+  "transient": 68,
+  "intermittent": 31,
+  "sustained": 19,
+  "unclassified": 64,
+  "mort_no_event": 8.1,
+  "mort_transient": 11.8,
+  "mort_intermittent": 3.2,
+  "mort_sustained": 31.6
+ }
+}

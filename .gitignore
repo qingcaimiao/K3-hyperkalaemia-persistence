@@ -1,0 +1,8 @@
+# 患者级中间产物与本地路径，禁止入库
+out/
+*.pkl
+*.parquet
+*.duckdb
+__pycache__/
+.DS_Store
+Thumbs.db

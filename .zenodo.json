@@ -1,0 +1,16 @@
+{
+  "title": "Analysis code and derived aggregate results: persistence of threshold-defined hyperkalaemia in cardiac intensive care (MIMIC-IV and eICU-CRD)",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "Miao, Qingcai", "orcid": "0009-0006-1479-6726"},
+    {"name": "Cen, Jianhong"},
+    {"name": "Chen, Lu"},
+    {"name": "Lu, Runzhi"},
+    {"name": "Zhang, Renjie", "orcid": "0009-0009-4026-2068"}
+  ],
+  "description": "Analysis code and derived aggregate results for a study of how often an episode of incident hyperkalaemia defined by a single potassium threshold (>=5.5 mmol/L) persists in cardiac intensive care, whether reversion is explained by analytical error, and whether persistence carries prognostic information. The analysis is run independently in MIMIC-IV v3.1 and the eICU Collaborative Research Database v2.0. No patient-level data are included, because the source databases are distributed under credentialed data-use agreements that prohibit redistribution.",
+  "keywords": ["hyperkalaemia", "potassium", "cardiac intensive care", "MIMIC-IV", "eICU-CRD", "measurement variability", "outcome definition"],
+  "access_right": "open",
+  "language": "eng"
+}

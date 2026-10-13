@@ -1,0 +1,110 @@
+{
+ "5_incidence": {
+  "k": 1182,
+  "n": 20322,
+  "pct": 5.8,
+  "lo": NaN,
+  "hi": NaN
+ },
+ "5_recheck6": {
+  "k": 615,
+  "n": 1182,
+  "pct": 52.0,
+  "lo": NaN,
+  "hi": NaN
+ },
+ "5_confirm": {
+  "k": 224,
+  "n": 1182,
+  "pct": 19.0,
+  "lo": NaN,
+  "hi": NaN
+ },
+ "5_sustained": {
+  "k": 86,
+  "n": 1182,
+  "pct": 7.3,
+  "lo": NaN,
+  "hi": NaN
+ },
+ "6_evalue": {
+  "transient": {
+   "crude_or": 2.91,
+   "evalue": 4.86
+  },
+  "intermittent": {
+   "crude_or": 5.84,
+   "evalue": 9.27
+  },
+  "sustained": {
+   "crude_or": 18.46,
+   "evalue": 21.29
+  }
+ },
+ "6_base_risk": 0.0397,
+ "7_rrt": {
+  "n": 1032,
+  "k": 64,
+  "pct": 6.2
+ },
+ "7_excl_rrt": {
+  "transient": {
+   "or_": 2.17,
+   "lo": 1.62,
+   "hi": 2.88,
+   "n": 18060
+  },
+  "intermittent": {
+   "or_": 4.78,
+   "lo": 3.04,
+   "hi": 6.93,
+   "n": 18060
+  },
+  "sustained": {
+   "or_": 14.48,
+   "lo": 8.19,
+   "hi": 23.41,
+   "n": 18060
+  }
+ },
+ "8_treated0": {
+  "transient": {
+   "or_": 2.27,
+   "lo": 1.6,
+   "hi": 3.43,
+   "n": 17765
+  },
+  "intermittent": {
+   "or_": 4.25,
+   "lo": 2.32,
+   "hi": 6.81,
+   "n": 17765
+  },
+  "sustained": {
+   "or_": 12.45,
+   "lo": 5.08,
+   "hi": 25.03,
+   "n": 17765
+  }
+ },
+ "8_treated1": {
+  "transient": {
+   "or_": 3.22,
+   "lo": 2.04,
+   "hi": 6.1,
+   "n": 17476
+  },
+  "intermittent": {
+   "or_": 6.13,
+   "lo": 3.3,
+   "hi": 12.87,
+   "n": 17476
+  },
+  "sustained": {
+   "or_": 15.2,
+   "lo": 7.93,
+   "hi": 41.26,
+   "n": 17476
+  }
+ }
+}

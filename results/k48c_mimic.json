@@ -1,0 +1,172 @@
+{
+ "1_dist|72 h": {
+  "complete_transient": 300,
+  "trunc_transient": 112,
+  "complete_intermittent": 85,
+  "trunc_intermittent": 17,
+  "complete_sustained": 26,
+  "trunc_sustained": 13,
+  "complete_unclassified": 20,
+  "trunc_unclassified": 69,
+  "n_complete": 431,
+  "n_truncated": 211,
+  "mort_complete": 10.4,
+  "mort_trunc": 16.6,
+  "kidx_complete": 5.7,
+  "kidx_trunc": 5.7
+ },
+ "1_complete_only|72 h": {
+  "transient": {
+   "or_": 1.2,
+   "lo": 0.68,
+   "hi": 2.26
+  },
+  "intermittent": {
+   "or_": 3.78,
+   "lo": 2.07,
+   "hi": 6.96
+  },
+  "sustained": {
+   "or_": 7.36,
+   "lo": 2.51,
+   "hi": 15.77
+  }
+ },
+ "1_trunc_as_unc|72 h": {
+  "transient": {
+   "or_": 1.2,
+   "lo": 0.68,
+   "hi": 2.26
+  },
+  "intermittent": {
+   "or_": 3.78,
+   "lo": 2.07,
+   "hi": 6.96
+  },
+  "sustained": {
+   "or_": 7.36,
+   "lo": 2.51,
+   "hi": 15.77
+  }
+ },
+ "1_dist|7 d": {
+  "complete_transient": 461,
+  "trunc_transient": 41,
+  "complete_intermittent": 134,
+  "trunc_intermittent": 4,
+  "complete_sustained": 35,
+  "trunc_sustained": 5,
+  "complete_unclassified": 37,
+  "trunc_unclassified": 38,
+  "n_complete": 667,
+  "n_truncated": 88,
+  "mort_complete": 12.6,
+  "mort_trunc": 15.9,
+  "kidx_complete": 5.7,
+  "kidx_trunc": 5.8
+ },
+ "1_complete_only|7 d": {
+  "transient": {
+   "or_": 1.83,
+   "lo": 1.29,
+   "hi": 2.72
+  },
+  "intermittent": {
+   "or_": 2.86,
+   "lo": 1.79,
+   "hi": 4.37
+  },
+  "sustained": {
+   "or_": 3.94,
+   "lo": 1.63,
+   "hi": 8.07
+  }
+ },
+ "1_trunc_as_unc|7 d": {
+  "transient": {
+   "or_": 1.83,
+   "lo": 1.29,
+   "hi": 2.72
+  },
+  "intermittent": {
+   "or_": 2.86,
+   "lo": 1.79,
+   "hi": 4.37
+  },
+  "sustained": {
+   "or_": 3.94,
+   "lo": 1.63,
+   "hi": 8.07
+  }
+ },
+ "2_share": {
+  "n": 1117,
+  "k": 724,
+  "pct": 64.8
+ },
+ "2_only": {
+  "transient": {
+   "or_": 2.79,
+   "lo": 1.89,
+   "hi": 4.06
+  },
+  "intermittent": {
+   "or_": 5.44,
+   "lo": 2.98,
+   "hi": 9.11
+  },
+  "sustained": {
+   "or_": 10.6,
+   "lo": 4.14,
+   "hi": 21.31
+  }
+ },
+ "3_dist": {
+  "transient": {
+   "n": 757,
+   "median": 2.0,
+   "q1": 1.0,
+   "q3": 3.0,
+   "n_one": 256,
+   "pct_one": 33.8
+  },
+  "intermittent": {
+   "n": 189,
+   "median": 3.0,
+   "q1": 2.0,
+   "q3": 4.0,
+   "n_one": 0,
+   "pct_one": 0.0
+  },
+  "sustained": {
+   "n": 86,
+   "median": 2.0,
+   "q1": 1.0,
+   "q3": 3.0,
+   "n_one": 40,
+   "pct_one": 46.5
+  }
+ },
+ "4_compete": {
+  "n": 18242,
+  "died": 853,
+  "alive": 17389
+ },
+ "4_excl48": {
+  "transient": {
+   "or_": 2.57,
+   "lo": 1.81,
+   "hi": 3.56
+  },
+  "intermittent": {
+   "or_": 4.1,
+   "lo": 2.6,
+   "hi": 6.11
+  },
+  "sustained": {
+   "or_": 6.94,
+   "lo": 3.23,
+   "hi": 12.3
+  }
+ }
+}

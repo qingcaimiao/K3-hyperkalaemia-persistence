@@ -1,0 +1,136 @@
+{
+ "MIMIC-IV": {
+  "n_units": 23429,
+  "n_base": 23331,
+  "n_coh": 20322,
+  "apparent": 1182,
+  "confirmed": 224,
+  "sustained": 86,
+  "apparent_pct": 5.82,
+  "confirmed_pct": 1.1,
+  "sustained_pct": 0.42,
+  "confirm_share": 19.0,
+  "sustained_share": 7.3,
+  "no_rep": 150,
+  "revert_share_of_rechecked": 78.3,
+  "bands": [
+   {
+    "band": "5.5–5.9",
+    "n": 788,
+    "share": 66.7,
+    "rechecked": 679,
+    "confirm": 22.1,
+    "sustained": 8.4
+   },
+   {
+    "band": "6.0–6.4",
+    "n": 188,
+    "share": 15.9,
+    "rechecked": 161,
+    "confirm": 27.3,
+    "sustained": 8.7
+   },
+   {
+    "band": "≥6.5",
+    "n": 206,
+    "share": 17.4,
+    "rechecked": 192,
+    "confirm": 15.6,
+    "sustained": 7.8
+   }
+  ],
+  "gaps": [
+   {
+    "gap": "≤6 h",
+    "n": 615,
+    "confirm": 22.3,
+    "med_next": 4.8
+   },
+   {
+    "gap": "6–12 h",
+    "n": 292,
+    "confirm": 25.3,
+    "med_next": 5.0
+   },
+   {
+    "gap": "12–24 h",
+    "n": 125,
+    "confirm": 10.4,
+    "med_next": 4.6
+   }
+  ],
+  "sd_within": 0.41,
+  "cv_within": 9.71,
+  "rcv": 1.14,
+  "beyond_pct": 64.0,
+  "dkp_median": 1.2,
+  "dkp_within_rcv_pct": 46.3
+ },
+ "eICU-CRD": {
+  "n_units": 41917,
+  "n_base": 41235,
+  "n_coh": 28805,
+  "apparent": 997,
+  "confirmed": 234,
+  "sustained": 100,
+  "apparent_pct": 3.46,
+  "confirmed_pct": 0.81,
+  "sustained_pct": 0.35,
+  "confirm_share": 23.5,
+  "sustained_share": 10.0,
+  "no_rep": 235,
+  "revert_share_of_rechecked": 69.3,
+  "bands": [
+   {
+    "band": "5.5–5.9",
+    "n": 723,
+    "share": 72.5,
+    "rechecked": 529,
+    "confirm": 26.7,
+    "sustained": 12.7
+   },
+   {
+    "band": "6.0–6.4",
+    "n": 173,
+    "share": 17.4,
+    "rechecked": 147,
+    "confirm": 35.4,
+    "sustained": 12.2
+   },
+   {
+    "band": "≥6.5",
+    "n": 101,
+    "share": 10.1,
+    "rechecked": 86,
+    "confirm": 47.7,
+    "sustained": 17.4
+   }
+  ],
+  "gaps": [
+   {
+    "gap": "≤6 h",
+    "n": 419,
+    "confirm": 36.0,
+    "med_next": 5.2
+   },
+   {
+    "gap": "6–12 h",
+    "n": 181,
+    "confirm": 28.2,
+    "med_next": 5.0
+   },
+   {
+    "gap": "12–24 h",
+    "n": 162,
+    "confirm": 19.8,
+    "med_next": 4.9
+   }
+  ],
+  "sd_within": 0.386,
+  "cv_within": 9.38,
+  "rcv": 1.07,
+  "beyond_pct": 64.8,
+  "dkp_median": 1.0,
+  "dkp_within_rcv_pct": 51.1
+ }
+}

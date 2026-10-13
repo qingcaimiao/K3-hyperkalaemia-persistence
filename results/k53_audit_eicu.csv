@@ -1,0 +1,10 @@
+db,metric,n,k,pct,or_,lo,hi
+eICU-CRD,beyond_pct_whole_cohort,997.0,646.0,64.8,,,
+eICU-CRD,beyond_pct_landmark_cohort,485.0,318.0,65.6,,,
+eICU-CRD,OR_rcv_restricted_transient,,,,2.26,1.28,3.28
+eICU-CRD,OR_rcv_restricted_intermittent,,,,3.16,1.33,5.66
+eICU-CRD,OR_rcv_restricted_sustained,,,,8.04,1.7,16.27
+eICU-CRD,median_repeat_all_remeasured,762.0,,,5.1,,
+eICU-CRD,median_repeat_reverted_only,528.0,,,4.7,,
+eICU-CRD,landmark72_retention_pct,23087.0,28805.0,80.1,,,
+eICU-CRD,landmark7d_retention_pct,,,,,,
