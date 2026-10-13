@@ -10,6 +10,8 @@ Submitted to the *Journal of Clinical Medicine* (MDPI).
 **Archived version of record:** v1.0.0 — https://doi.org/10.5281/zenodo.23343472
 (concept DOI, always resolving to the latest version: https://doi.org/10.5281/zenodo.23343471)
 
+> **Note on versions.** The archived v1.0.0 corresponds to the analysis as reported. Figure file names in v1.0.0 predate a final renumbering of the figures to match their order of first citation in the manuscript and, for the cohort flow diagram, a correction to an overlapping data label; the `main` branch carries the final figure files and the pre-submission audit scripts. The analysis itself is unchanged between v1.0.0 and `main`.
+
 ---
 
 ## What the study does

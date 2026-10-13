@@ -1,0 +1,35 @@
+db,metric,value,note
+MIMIC-IV,Table2_pct_transient,3.73,n=757/20322
+MIMIC-IV,Table2_pct_intermittent,0.93,n=189/20322
+MIMIC-IV,Table2_pct_sustained,0.42,n=86/20322
+MIMIC-IV,Table2_pct_unclassified,0.74,n=150/20322
+MIMIC-IV,fully_reverted_over_remeasured,73.4,n=757/1032
+MIMIC-IV,landmark_discharged_alive_pct,95.3,n=17374/18227 死亡853
+MIMIC-IV,truncated_unclassified_pct,32.7,n=211
+MIMIC-IV,untruncated_unclassified_pct,4.6,n=431
+MIMIC-IV,truncated_sustained_pct,6.2,n=211
+MIMIC-IV,untruncated_sustained_pct,6.0,n=431
+MIMIC-IV,mort_transient_n1,10.5,n=256
+MIMIC-IV,mort_transient_n2plus,12.4,n=501
+MIMIC-IV,mort_sustained_n1,47.5,n=40
+MIMIC-IV,mort_sustained_n2plus,54.3,n=46
+MIMIC-IV,n_cohort,20322.0,
+MIMIC-IV,n_apparent,1182.0,
+MIMIC-IV,n_landmark,18227.0,
+eICU-CRD,Table2_pct_transient,1.71,n=493/28805
+eICU-CRD,Table2_pct_intermittent,0.59,n=169/28805
+eICU-CRD,Table2_pct_sustained,0.35,n=100/28805
+eICU-CRD,Table2_pct_unclassified,0.82,n=235/28805
+eICU-CRD,fully_reverted_over_remeasured,64.7,n=493/762
+eICU-CRD,landmark_discharged_alive_pct,93.4,n=21568/23087 死亡1519
+eICU-CRD,truncated_unclassified_pct,40.1,n=172
+eICU-CRD,untruncated_unclassified_pct,12.5,n=313
+eICU-CRD,truncated_sustained_pct,8.1,n=172
+eICU-CRD,untruncated_sustained_pct,9.3,n=313
+eICU-CRD,mort_transient_n1,17.3,n=226
+eICU-CRD,mort_transient_n2plus,17.6,n=267
+eICU-CRD,mort_sustained_n1,44.9,n=69
+eICU-CRD,mort_sustained_n2plus,71.0,n=31
+eICU-CRD,n_cohort,28805.0,
+eICU-CRD,n_apparent,997.0,
+eICU-CRD,n_landmark,23087.0,
