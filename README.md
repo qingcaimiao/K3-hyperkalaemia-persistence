@@ -7,6 +7,9 @@ Analysis code and derived aggregate results for the manuscript:
 
 Submitted to the *Journal of Clinical Medicine* (MDPI).
 
+**Archived version of record:** v1.0.0 — https://doi.org/10.5281/zenodo.23343472
+(concept DOI, always resolving to the latest version: https://doi.org/10.5281/zenodo.23343471)
+
 ---
 
 ## What the study does
