@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""K3 STROBE 流程图（FigK3_6），数字取自 out/k41_flow.csv"""
+"""K3 STROBE 流程图（Figure 2，重编号后），数字取自 out/k41_flow.csv"""
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
@@ -30,9 +30,7 @@ for ax, (_, f), col in zip(axes, F.iterrows(), ['#2166ac', '#b2182b']):
     for y in [8.85, 6.95, 5.05, 3.15]:
         ax.annotate('', xy=(5.0, y - 0.22), xytext=(5.0, y + 0.22),
                     arrowprops=dict(arrowstyle='-|>', color=col, lw=1.5))
-    for y in [7.9, 6.0, 4.1]:
-        ax.plot([1.0, 0.30], [y, y], color=col, lw=1.0, ls='--')
-fig.suptitle('Figure 6. Derivation of the analysis cohort (STROBE)', fontsize=13.5, fontweight='bold', y=0.975)
+fig.suptitle('Figure 2. Derivation of the analysis cohort (STROBE)', fontsize=13.5, fontweight='bold', y=0.975)
 fig.tight_layout(rect=[0, 0, 1, 0.955])
-fig.savefig('out/figures_k3/FigK3_6_flow.png', dpi=600, facecolor='white')
-print('写出 out/figures_k3/FigK3_6_flow.png')
+fig.savefig('out/figures_k3/FigK3_2_flow.png', dpi=600, facecolor='white')
+print('写出 out/figures_k3/FigK3_2_flow.png')

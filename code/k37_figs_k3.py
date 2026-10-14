@@ -4,6 +4,13 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+
+
+raise SystemExit(
+    '[已弃用] k37_figs_k3.py 的各张图都已有专属且更新的脚本：'
+    'Figure 1 -> k78_fig1_redo.py、Figure 3 -> k70_fig3_fix.py、'
+    'Figure 4 -> k68_fig_fixes.py、Figure 5 -> k46_figs_redo.py、'
+    'Figure 6 -> k62_fig_rule_redo.py。本脚本不再运行。')
 import numpy as np, pandas as pd, json, os
 plt.rcParams.update({'font.family': 'Arial', 'font.size': 7.5, 'axes.linewidth': 0.7,
                      'xtick.major.width': 0.7, 'ytick.major.width': 0.7, 'axes.spines.top': False,
@@ -57,6 +64,7 @@ ev = [ph1['eICU-CRD']['apparent_pct'], ph1['eICU-CRD']['confirmed_pct'], ph1['eI
 x = np.arange(4); w = 0.36
 ax1.bar(x - w / 2, mv, w, color=CM, label='MIMIC-IV')
 ax1.bar(x + w / 2, ev, w, color=CE, label='eICU-CRD')
+assert len(mv) == len(ev), 'k37 MIMIC/eICU 柱数不一致: %d vs %d' % (len(mv), len(ev))
 for i, (a, b) in enumerate(zip(mv, ev)):
     ax1.text(i - w / 2, a + 0.12, '%.2f' % a, ha='center', fontsize=5.9)
     ax1.text(i + w / 2, b + 0.12, '%.2f' % b, ha='center', fontsize=5.9)
@@ -161,7 +169,7 @@ h = [plt.Line2D([], [], color=CM, marker='o', ls='', ms=4, label='MIMIC-IV'),
 ax.legend(handles=h, frameon=False, fontsize=6.5, loc='lower right')
 fig.tight_layout(); fig.savefig(OUT + '/FigK3_4_forest.png', bbox_inches='tight'); plt.close(fig)
 
-# ---------------- Figure 5 rule yield ----------------
+# ---------------- Figure 6 rule yield（重编号后）----------------
 fig, (a1, a2) = plt.subplots(1, 2, figsize=(7.2, 2.6))
 lab = ['2 h', '4 h', '6 h', '12 h', '24 h']
 for nm, c in [('MIMIC-IV', CM), ('eICU-CRD', CE)]:
@@ -177,9 +185,9 @@ a1.set_xticks(range(5)); a1.set_xticklabels(lab); a1.set_ylabel('Re-measured wit
 a1.set_ylim(0, 95); a1.set_title('A  Current practice', fontsize=7.5, loc='left', fontweight='bold')
 a1.legend(frameon=False, fontsize=6.5)
 a2.set_xticks(range(5)); a2.set_xticklabels(lab); a2.set_ylabel('Repeat measurements per confirmed episode')
-a2.set_ylim(0, 6); a2.set_title('B  Yield of the rule', fontsize=7.5, loc='left', fontweight='bold')
+a2.set_ylim(0, 7); a2.set_title('B  Yield of the rule', fontsize=7.5, loc='left', fontweight='bold')
 a2.legend(frameon=False, fontsize=6.5)
-fig.tight_layout(); fig.savefig(OUT + '/FigK3_5_rule.png', bbox_inches='tight'); plt.close(fig)
+fig.tight_layout(); fig.savefig(OUT + '/FigK3_6_rule.png', bbox_inches='tight'); plt.close(fig)
 print('生成：')
 for f in sorted(os.listdir(OUT)):
     print('  ', f, os.path.getsize(OUT + '/' + f))

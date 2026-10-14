@@ -6,6 +6,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+
+
 import numpy as np, pandas as pd, json
 plt.rcParams.update({'font.family': 'Arial', 'font.size': 7.5, 'axes.linewidth': 0.7,
                      'xtick.major.width': 0.7, 'ytick.major.width': 0.7, 'axes.spines.top': False,
@@ -44,6 +46,7 @@ ev = [3.46, 1.71, 0.59, 0.35, 0.82]
 x = np.arange(5); w = 0.36
 ax1.bar(x - w / 2, mv, w, color=CM, label='MIMIC-IV')
 ax1.bar(x + w / 2, ev, w, color=CE, label='eICU-CRD')
+assert len(mv) == len(ev), 'k46 MIMIC/eICU 柱数不一致: %d vs %d' % (len(mv), len(ev))
 for i, (a, b) in enumerate(zip(mv, ev)):
     ax1.text(i - w / 2, a + 0.12, '%.2f' % a, ha='center', fontsize=5.8)
     ax1.text(i + w / 2, b + 0.12, '%.2f' % b, ha='center', fontsize=5.8)
@@ -51,7 +54,12 @@ ax1.set_xticks(x); ax1.set_xticklabels(labels, fontsize=5.9, rotation=20, ha='ri
 ax1.set_ylabel('Incidence (% of cohort)'); ax1.set_ylim(0, 6.9)
 ax1.legend(frameon=False, fontsize=6.6)
 ax1.text(-0.18, 1.07, 'B', transform=ax1.transAxes, fontweight='bold', fontsize=9)
-fig.tight_layout(); fig.savefig(OUT + '/FigK3_1_definition.png', bbox_inches='tight'); plt.close(fig)
+import os as _os
+if not _os.environ.get('K3_ALLOW_STALE_FIG'):
+    print('  [skip] Figure 1（含硬编码 3.72 的旧版） 现由 k78_fig1_redo.py 生成，本脚本默认不再写出（设 K3_ALLOW_STALE_FIG=1 可强制）')
+else:
+    fig.tight_layout(); fig.savefig(OUT + '/FigK3_1_definition.png', bbox_inches='tight')
+plt.close(fig)
 
 # ---------------- Figure 4 forest ----------------
 fig, ax = plt.subplots(figsize=(5.6, 2.7))
@@ -76,5 +84,5 @@ ax.set_xlabel('Adjusted odds ratio for in-hospital death (72-h landmark)')
 h = [plt.Line2D([], [], color=CM, marker='o', ls='', ms=4, label='MIMIC-IV'),
      plt.Line2D([], [], color=CE, marker='o', ls='', ms=4, label='eICU-CRD')]
 ax.legend(handles=h, frameon=False, fontsize=6.4, loc='lower center', bbox_to_anchor=(0.5, 1.005), ncol=2)
-fig.tight_layout(); fig.savefig(OUT + '/FigK3_4_forest.png', bbox_inches='tight'); plt.close(fig)
-print('重绘完成：FigK3_1_definition.png, FigK3_4_forest.png')
+fig.tight_layout(); fig.savefig(OUT + '/FigK3_5_forest.png', bbox_inches='tight')   # 重编号后的新名; plt.close(fig)
+print('写出 out/figures_k3/FigK3_5_forest.png（Figure 5，重编号后的新名）')
