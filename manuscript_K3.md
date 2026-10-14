@@ -331,8 +331,6 @@ In cardiac intensive care, most episodes of incident hyperkalaemia defined by a 
 
 ---
 
-## Declarations
-
 ## Supplementary Materials
 
 The following supporting information can be downloaded at the journal website. Table S1: definitions and code lists; Table S2: cohort derivation; Table S3: full state-transition matrix; Table S4: expected confirmation rate under competing explanations; Table S5: sensitivity of the persistent state to the minimum number of measurements; Table S6: robustness of the adjusted odds ratio for in-hospital death; Table S7: sensitivity of the expected confirmation rate to the between-patient variance of true potassium; Table S8: E-values for each state against the no-episode group. The STROBE checklist for this study is provided as an additional supplementary file.
@@ -363,7 +361,7 @@ During the preparation of this work the authors used a large language model assi
 
 ## Conflicts of Interest
 
-The authors declare no conflicts of interest.
+The authors declare no conflict of interest.
 
 ## Abbreviations
 
@@ -384,6 +382,7 @@ The following abbreviations are used in this manuscript:
 | RR | risk ratio |
 | SD | standard deviation |
 | STROBE | Strengthening the Reporting of Observational Studies in Epidemiology |
+
 ---
 
 ## References

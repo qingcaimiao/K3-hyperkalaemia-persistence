@@ -14,7 +14,7 @@ import io, re, sys
 
 CONF = [
     dict(path='out/manuscript_K3.md', tabs='## Tables', figs='## Figure legends',
-         end='## Declarations', tre=r'(?m)^### Table (\d+)\.', tlab='Table %d', flab='Figure %d'),
+         end='## Supplementary Materials', tre=r'(?m)^### Table (\d+)\.', tlab='Table %d', flab='Figure %d'),
     dict(path='out/稿件_K3_中文版.md', tabs='## 表', figs='## 图注',
          end='## 参考文献', tre=r'(?m)^### 表 (\d+)\.', tlab='表 %d', flab='图 %d'),
 ]
