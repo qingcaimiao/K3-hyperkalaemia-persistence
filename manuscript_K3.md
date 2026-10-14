@@ -2,8 +2,8 @@
 
 Qingcai Miao 3, Jianhong Cen 3, Lu Chen 3, Runzhi Lu 3 and Renjie Zhang 1,2,*
 
-1 Department of Cardiology (Cardiology Unit I), Handan First Hospital, No. 25 Congtai Road, Handan 056000, Hebei, China
-2 Handan Key Laboratory of Cardiac Precision Medicine, Handan First Hospital, No. 25 Congtai Road, Handan 056000, Hebei, China
+1 Department of Cardiology (Cardiology Unit I), Handan First Hospital, No. 25 Congtai Road, Handan 056002, Hebei, China
+2 Handan Key Laboratory of Cardiac Precision Medicine, Handan First Hospital, No. 25 Congtai Road, Handan 056002, Hebei, China
 3 Hebei North University, No. 11 Diamond South Road, Zhangjiakou Economic Development Zone, Zhangjiakou 075000, Hebei, China
 
 * Correspondence: zhangrenjie725@sina.com
