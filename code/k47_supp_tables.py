@@ -70,6 +70,7 @@ L.append('\n## Table S4. Expected confirmation rate under competing explanations
 L.append('| Assumed source of variation | MIMIC-IV SD | MIMIC-IV λ | MIMIC-IV expected | eICU-CRD SD | eICU-CRD λ | eICU-CRD expected |')
 L.append('|---|---|---|---|---|---|---|')
 ms = ph2c['MIMIC-IV']['scenarios']; es = ph2c['eICU-CRD']['scenarios']
+assert len(ms) == len(es), 'S4 两库情景数不一致: MIMIC-IV=%d vs eICU-CRD=%d' % (len(ms), len(es))
 # k31c 的场景标签为中文，补充材料须全英文；此处做映射（含兜底）
 _LAB = {
     '实验室分析误差 CV 1.5%': 'Analytical error, CV 1.5%',

@@ -164,7 +164,10 @@ for H, lab in [(4320, '72 h'), (10080, '7 d')]:
     print('   截断归未分类 OR:', {k: (v['or_'], v['lo'], v['hi']) for k, v in RES['1_trunc_as_unc|%s' % lab].items()})
 
 # ---------------- 2) index > 本人 median + RCV ----------------
-RCV = 1.14 if W == 'MIMIC' else 1.07
+_p1 = json.load(open('out/k3_phase1.json', encoding='utf-8'))
+RCV = float(_p1[DB]['rcv'])          # 患者内 SD / RCV 的唯一来源（k31c 落盘）
+assert abs(RCV - (1.14 if W == 'MIMIC' else 1.07)) < 0.005, RCV
+assert abs(RCV - 1.96 * (2 ** 0.5) * float(_p1[DB]['sd_within'])) < 0.005, RCV
 c72 = classify(4320).merge(oc, on='sid', how='left')
 c72 = c72.merge(med, on='sid', how='left')
 app = c72[(c72.los_hosp_min > 4320) & (c72.grp != 'no_event')].copy()

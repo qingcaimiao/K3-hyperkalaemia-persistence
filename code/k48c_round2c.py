@@ -114,7 +114,10 @@ for H, lab in [(4320, '72 h'), (10080, '7 d')]:
         c_whole = c
 
 # [2] RCV
-RCV = 1.14 if W == 'MIMIC' else 1.07
+_p1 = json.load(open('out/k3_phase1.json', encoding='utf-8'))
+RCV = float(_p1[DB]['rcv'])          # 患者内 SD / RCV 的唯一来源（k31c 落盘）
+assert abs(RCV - (1.14 if W == 'MIMIC' else 1.07)) < 0.005, RCV
+assert abs(RCV - 1.96 * (2 ** 0.5) * float(_p1[DB]['sd_within'])) < 0.005, RCV
 _all = c_whole[c_whole.los_hosp_min > 4320].copy()
 app = _all[_all.grp != 'no_event'].copy()
 app['beyond'] = (pd.to_numeric(app.k_idx, errors='coerce') > app.k_med + RCV).astype(int)

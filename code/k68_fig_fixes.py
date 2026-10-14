@@ -105,7 +105,10 @@ for k in keys:
         else:
             num = counts[nm][k]
         bag.append(100 * num / n)
+assert len(labels) == len(mv) == len(ev) == 5, (
+    'labels/mv/ev 长度不一致: %d/%d/%d' % (len(labels), len(mv), len(ev)))
 for nm, vals in (('MIMIC-IV', mv), ('eICU-CRD', ev)):
+    assert len(labels) == len(vals), '%s: labels/vals 长度不一致' % nm
     for lab, v in zip(labels, vals):
         ck('%s %s pct' % (nm, lab), T2[nm]['pct'][lab], v, 0.005)
 if fails:
@@ -144,8 +147,13 @@ ax1.set_xticks(x); ax1.set_xticklabels(labels, fontsize=5.9, rotation=20, ha='ri
 ax1.set_ylabel('Incidence (% of cohort)'); ax1.set_ylim(0, 6.9)
 ax1.legend(frameon=False, fontsize=6.6)
 ax1.text(-0.18, 1.07, 'B', transform=ax1.transAxes, fontweight='bold', fontsize=9)
-fig.tight_layout(); fig.savefig(OUT + '/FigK3_1_definition.png', bbox_inches='tight'); plt.close(fig)
-print('  -> FigK3_1_definition.png  (MIMIC transient label = %.2f)' % mv[1])
+import os as _os
+if _os.environ.get('K3_ALLOW_STALE_FIG'):
+    fig.tight_layout(); fig.savefig(OUT + '/FigK3_1_definition.png', bbox_inches='tight')
+else:
+    print('  [skip] Figure 1 现由 k78_fig1_redo.py 生成，本脚本默认不再写出（设 K3_ALLOW_STALE_FIG=1 可强制）')
+plt.close(fig)
+print('  (Figure 1 未写出；标签值 %.2f 仅供核对)' % mv[1])
 
 # ---------------------------------------------------------------- Figure 4
 print('\n=== 3. 重算转移矩阵并重绘 Figure 4 ===')
