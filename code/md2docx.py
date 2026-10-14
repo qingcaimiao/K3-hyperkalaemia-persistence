@@ -7,7 +7,7 @@ md2docx.py —— Markdown → Word 转换器
 """
 import sys, os, re
 from docx import Document
-from docx.shared import Inches, Pt, RGBColor
+from docx.shared import Inches, Pt, RGBColor, Cm
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
@@ -83,6 +83,9 @@ def convert(md_path, out_path, ascii_font='Arial', ea_font='宋体'):
     st.font.size = Pt(10.5)
     st.element.rPr.rFonts.set(qn('w:eastAsia'), ea_font)
     for s in doc.sections:
+        # 纸张必须是 A4：python-docx 的默认是 US Letter，MDPI/JCM 用 A4
+        s.page_width = Cm(21.0)
+        s.page_height = Cm(29.7)
         s.left_margin = s.right_margin = Inches(1.0)
         s.top_margin = s.bottom_margin = Inches(0.9)
 
