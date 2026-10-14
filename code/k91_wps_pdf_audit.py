@@ -17,7 +17,7 @@ from docx import Document
 from pypdf import PdfReader
 from PIL import Image
 
-PDF = 'D:/桌面/01_Manuscript.pdf'
+PDF = sys.argv[1] if len(sys.argv) > 1 else 'D:/桌面/01_Manuscript.pdf'
 DOCX = 'out/manuscript_K3_EN.docx'
 
 
@@ -42,9 +42,11 @@ def main():
     for m in list(re.finditer(r'[a-z]{4,}[A-Z][a-z]{3,}', t))[:6]:
         print('     …%s…' % t[max(0, m.start() - 25):m.start() + 30].replace('\n', ' '))
     # 已知哨兵
+    # 注意：必须用【未去空白】的原文查，否则表格里相邻单元格（"Window" + "MIMIC-IV"）
+    # 去空白后必然粘成 WindowMIMIC，造成假阳性。
     sent = [s for s in ['StatementMIMIC', 'AcknowledgmentsDuring', 'WindowMIMIC',
-                        'MIMIC-IVeICU', 'elCU', 'MIMICIV', 'codelists', 'rateunder'] if s in flat]
-    print('  粘连哨兵（去空白后）:', sent or '无 ✅')
+                        'MIMIC-IVeICU', 'elCU', 'MIMICIV', 'codelists', 'rateunder'] if s in t]
+    print('  粘连哨兵（原文，未去空白）:', sent or '无 ✅')
 
     print('\n=== 3. 内容完整性（Word vs PDF，去空白）===')
     doc = Document(DOCX)
@@ -61,8 +63,22 @@ def main():
     for m in miss_p[:8]:
         print('     ✗', m[:90])
     print('  Word 单元格 %d -> 缺失 %d' % (len(cells), len(miss_c)))
-    for m in miss_c[:8]:
-        print('     ✗', m[:70])
+
+    def split_at(key):
+        """若 key 被分页切成两段（前缀+后缀各自出现），返回切点；否则 None。"""
+        for k in range(len(key) - 4, 4, -1):
+            if key[:k] in flat and key[k:] in flat:
+                return k
+        return None
+
+    for m in miss_c[:10]:
+        km = nz(m)
+        sp = split_at(km)
+        if sp:
+            print('     ✗ 疑似被分页切断: %r … %r  (原文 %r)'
+                  % (km[:sp], km[sp:], m[:60]))
+        else:
+            print('     ✗ 真正缺失:', m[:70])
 
     print('\n=== 4. 关键数字 / 参考文献 / 后置章节 ===')
     keys = ['20,322', '28,805', '23,429', '41,917', '1,182', '997', '5.82', '3.46', '0.42', '0.35',

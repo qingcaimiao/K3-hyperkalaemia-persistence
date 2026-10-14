@@ -160,6 +160,12 @@ def convert(md_path, out_path, ascii_font='Arial', ea_font='宋体'):
             # 表格跨页时重复标题行（MDPI 审稿最常挑的排版问题）
             trPr = t.rows[0]._tr.get_or_add_trPr()
             th = OxmlElement('w:tblHeader'); th.set(qn('w:val'), 'true'); trPr.append(th)
+            # 每一行都禁止跨页拆分。否则行内单元格会被分页拦腰截断——
+            # 实测 A4 下 Table 5 的 "4.52 (1.85–6.30)" 曾被切成上页 "4.52 (1.85–" + 下页 "6.30)"，
+            # Table 2 的 sustained 定义单元格同样被切开。
+            for _row in t.rows:
+                _rp = _row._tr.get_or_add_trPr()
+                _cs = OxmlElement('w:cantSplit'); _cs.set(qn('w:val'), 'true'); _rp.append(_cs)
             doc.add_paragraph()
             continue
 
