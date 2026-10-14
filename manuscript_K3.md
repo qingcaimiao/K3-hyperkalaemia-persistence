@@ -18,9 +18,9 @@ E-mail addresses: 15511075821@163.com (Q.M.); 1046649694@qq.com (J.C.); 18703137
 
 **Background** Hyperkalaemia in cardiac intensive care is defined by one threshold, although guidelines advise a repeat sample. Whether such an episode persists, and whether persistence is prognostic, is unknown.
 
-**Methods** Among cardiac intensive care admissions with potassium records in the Medical Information Mart for Intensive Care IV (MIMIC-IV) and the eICU Collaborative Research Database (eICU-CRD), the 20,322 and 28,805 with a baseline potassium below 5.5 mmol/L and a measurement after 24 hours were classified by the next 24 hours after a first value ≥5.5 mmol/L as transient, intermittent, sustained or unclassified, and related to in-hospital death after a 72-hour landmark.
+**Methods** Among cardiac intensive care admissions with potassium records in the Medical Information Mart for Intensive Care IV (MIMIC-IV, 23,429) and the eICU Collaborative Research Database (eICU-CRD, 41,917), the 20,322 and 28,805 with a baseline potassium below 5.5 mmol/L and a measurement after 24 hours were classified by the next 24 hours after a first value ≥5.5 mmol/L as transient, intermittent, sustained or unclassified. We quantified within-patient variability, bounded the contribution of analytical error, and related each state to in-hospital death after a 72-hour landmark.
 
-**Results** Episodes occurred in 1,182 (5.82%) and 997 (3.46%) admissions; 86 (0.42%) and 100 (0.35%) were sustained. Analytical error alone predicted 38–83% confirmation, so the observed reversion reflects genuine fluctuation, not assay error, and recorded treatment did not explain it. Adjusted odds ratios for death for sustained episodes were 11.87 (5.59–20.49) and 8.05 (4.16–15.15), significant in all sensitivity analyses; only 52.0% and 42.0% were re-measured within six hours.
+**Results** Episodes occurred in 1,182 (5.82%) and 997 (3.46%) admissions; 86 (0.42%) and 100 (0.35%) were sustained. Analytical error alone predicted 38–83% confirmation, so the reversion reflects genuine fluctuation, not assay error, and recorded treatment did not explain it. Adjusted odds ratios for death were 11.87 (5.59–20.49) and 8.05 (4.16–15.15) for sustained episodes and 1.56 (0.99–2.45) and 2.77 (1.82–3.93) for transient episodes; the persistent state was significant in all sensitivity analyses, whereas the excess for transient episodes was not significant in MIMIC-IV. Only 52.0% and 42.0% were re-measured within six hours.
 
 **Conclusions** Most single-threshold episodes in cardiac intensive care do not persist, and the observed rates exclude an isolated assay error. Excess mortality is carried mainly by the persistent state, so the two should be reported separately.
 
@@ -169,7 +169,7 @@ The coefficient of variation is the within-patient standard deviation divided by
 
 ![](figures_k3/FigK3_3_variability.png "6.5")
 
-**Figure 3.** Within-patient variability and its consequences. Distribution of the difference between consecutive measurements within 24 hours, the 95% reference change value, and the proportion of index values exceeding the patient's own variability.
+**Figure 3.** Within-patient variability and the explanations for reversion. The two left panels show the distribution of the difference between consecutive potassium measurements up to 24 hours apart, in MIMIC-IV and eICU-CRD; the dashed lines mark the 95% reference change value and the inset gives the within-patient standard deviation, its coefficient of variation and the reference change value. The right panel gives the expected confirmation rate under each assumed source of variation (analytical imprecision at a coefficient of variation of 1.5%, 3.0% and 5.0%, and the observed within-patient variability) beside the observed rate; the same quantities are tabulated in Table 4.
 
 Two consequences followed. First, the apparent rise is often small relative to that background: the index value exceeded the patient's own median by more than the reference change value in only 64.0% and 64.8% of episodes, and the increment from the preceding measurement was within the reference change value in 46.3% and 51.1%. Second, the transition matrix shows that an isolated reading carries limited information about the next one (Table 3, Figure 4): a potassium of 5.5–5.9 mmol/L was followed by a value ≥5.5 mmol/L in only 32.3% (MIMIC-IV) and 33.9% (eICU-CRD) of instances, compared with 10.0% and 10.7% for a reading of 5.0–5.4, and 1.8% and 1.9% for 4.5–4.9. The matrix agrees between databases at 5.5–5.9 and diverges only at ≥6.0 (39.0% versus 54.5%), the band in which management is most likely to differ between a single academic centre and a tele-ICU network.
 
@@ -277,7 +277,7 @@ The yield did not improve by restricting the rule to higher values. In eICU-CRD,
 
 **Measurement density.** The number of potassium measurements after hour 24 differed between the states, so the model was refitted within strata of measurement density. Restricting to admissions at or above the median density left the gradient intact (1.75 [1.04–2.70], 4.45 [2.39–7.18] and 8.98 [3.59–19.61] in MIMIC-IV; 2.56 [1.53–3.83], 3.90 [2.09–6.49] and 9.90 [3.53–18.69] in eICU-CRD), as did restriction to the top quartile (2.38 [1.35–3.96], 4.69 [2.54–8.07] and 9.07 [3.67–19.89]; 2.73 [1.49–4.03], 3.58 [1.84–6.26] and 10.92 [2.58–22.35]). The association is therefore not produced by patients who happened to be tested more often.
 
-**Dialysis, treatment strata and unmeasured confounding.** Renal replacement therapy was recorded for 6.2% and 4.3% of episodes; excluding those episodes left the gradient essentially unchanged (2.17 [1.62–2.88], 4.78 [3.04–6.93] and 14.48 [8.19–23.41] in MIMIC-IV; 3.07 [2.34–4.55], 3.82 [2.28–7.24] and 12.36 [7.71–26.10] in eICU-CRD). Reporting the two treatment strata separately gave the same ordering in both databases (untreated: 2.27 [1.60–3.43], 4.25 [2.32–6.81] and 12.45 [5.08–25.03] in MIMIC-IV; 3.03 [2.30–4.64], 4.05 [2.68–7.28] and 12.49 [8.00–23.90] in eICU-CRD; treated: 3.22 [2.04–6.10], 6.13 [3.30–12.87] and 15.20 [7.93–41.26] in MIMIC-IV). In eICU-CRD only 28 of the 485 episodes (5.8%) in the 72-hour landmark cohort had recorded treatment, and the stratum-specific estimates were correspondingly unstable (sustained 1.71, 95% CI 0.92–13.95; Table S7); they are reported for completeness and are not interpreted. Against a reference risk of 4.4% and 6.4%, the E-value for the persistent state was 15.5 and 10.6, meaning that an unmeasured confounder would have to be associated with both persistence and death by a risk ratio of that magnitude (larger than that of any covariate examined here) to explain the association away; the corresponding E-values were 7.1 and 6.8 for intermittent episodes and 2.4 and 4.4 for transient episodes.
+**Dialysis, treatment strata and unmeasured confounding.** Renal replacement therapy was recorded for 6.2% and 4.3% of episodes; excluding those episodes left the gradient essentially unchanged (2.17 [1.62–2.88], 4.78 [3.04–6.93] and 14.48 [8.19–23.41] in MIMIC-IV; 3.07 [2.34–4.55], 3.82 [2.28–7.24] and 12.36 [7.71–26.10] in eICU-CRD). Reporting the two treatment strata separately gave the same ordering in both databases (untreated: 2.27 [1.60–3.43], 4.25 [2.32–6.81] and 12.45 [5.08–25.03] in MIMIC-IV; 3.03 [2.30–4.64], 4.05 [2.68–7.28] and 12.49 [8.00–23.90] in eICU-CRD; treated: 3.22 [2.04–6.10], 6.13 [3.30–12.87] and 15.20 [7.93–41.26] in MIMIC-IV). In eICU-CRD only 28 of the 485 episodes (5.8%) in the 72-hour landmark cohort had recorded treatment, and the stratum-specific estimates were correspondingly unstable (sustained 1.71, 95% CI 0.92–13.95; Table S7); they are reported for completeness and are not interpreted. Against a reference risk of 4.4% and 6.4%, the E-value for the persistent state was 15.5 and 10.6 (Table S9), meaning that an unmeasured confounder would have to be associated with both persistence and death by a risk ratio of that magnitude (larger than that of any covariate examined here) to explain the association away; the corresponding E-values were 7.1 and 6.8 for intermittent episodes and 2.4 and 4.4 for transient episodes.
 
 **Clustered confidence intervals for the proportions.** In eICU-CRD, resampling hospitals rather than patients widened the intervals without changing any conclusion: incidence 3.46% (95% CI 3.0–3.9), re-measurement within six hours 42.0% (36.3–47.7), confirmation by the next measurement 23.5% (19.4–27.7) and the sustained share of apparent episodes 10.0% (8.4–11.8).
 
@@ -394,14 +394,19 @@ The following abbreviations are used in this manuscript:
 
 | Abbreviation | Definition |
 |---|---|
-| AUC | area under the receiver-operating-characteristic curve |
+| CCU | coronary care unit |
 | CI | confidence interval |
+| CV | coefficient of variation |
+| CVICU | cardiac vascular intensive care unit |
+| E-value | minimum strength of association that an unmeasured confounder would need in order to explain away an observed association |
 | eICU-CRD | eICU Collaborative Research Database |
+| IQR | interquartile range |
 | MIMIC-IV | Medical Information Mart for Intensive Care IV |
 | OR | odds ratio |
 | RCV | reference change value |
+| RR | risk ratio |
+| SD | standard deviation |
 | STROBE | Strengthening the Reporting of Observational Studies in Epidemiology |
-
 ---
 
 ## References
